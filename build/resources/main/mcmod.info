@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "elysiancurrency",
+    "name": "Elysian Currency",
+    "description": "",
+    "version": "1.0",
+    "credits": "Made by daysant in MCreator",
+    "logoFile": "",
+    "mcversion": "1.12.2",
+    "url": "https://mcreator.net",
+    "updateUrl": "",
+    "authorList": [
+      "daysant"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]

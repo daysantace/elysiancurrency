@@ -1,0 +1,446 @@
+Processing 17 files
+Start Processing: net/daysantace/elysiancurrency/ClientProxyElysianCurrency.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.client.model.obj.OBJLoader
+End  Processing: net/daysantace/elysiancurrency/ClientProxyElysianCurrency.java
+
+Start Processing: net/daysantace/elysiancurrency/ElementsElysianCurrency.java
+FOUND CONSTR method net/daysantace/elysiancurrency/ElementsElysianCurrency/ElementsElysianCurrency ()V net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/minecraftforge/fml/common/discovery/ASMDataTable
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency/ModElement
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElysianCurrencyVariables
+New Key: class net/daysantace/elysiancurrency/ElysianCurrencyVariables
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class java/util/Map
+Rename field net/minecraft/world/World/provider[3717,3725]::provider->field_73011_w
+Rename field net/minecraft/entity/Entity/world[4106,4111]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4120,4128]::isRemote->field_72995_K
+New Key: class net/daysantace/elysiancurrency/ElysianCurrencyVariables
+Rename field net/minecraft/entity/Entity/world[4221,4226]::world->field_70170_p
+New Key: class net/daysantace/elysiancurrency/ElysianCurrencyVariables
+Rename field net/minecraft/entity/Entity/world[4325,4330]::world->field_70170_p
+New Key: class net/daysantace/elysiancurrency/ElysianCurrencyVariables
+New Key: class net/daysantace/elysiancurrency/ElysianCurrencyVariables
+Rename field net/minecraft/entity/Entity/world[4873,4878]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4887,4895]::isRemote->field_72995_K
+New Key: class net/daysantace/elysiancurrency/ElysianCurrencyVariables
+Rename field net/minecraft/entity/Entity/world[4992,4997]::world->field_70170_p
+New Key: class net/daysantace/elysiancurrency/ElysianCurrencyVariables
+FOUND CONSTR method net/daysantace/elysiancurrency/ElementsElysianCurrency/ModElement/ModElement (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;I)V net/daysantace/elysiancurrency/ElementsElysianCurrency/ModElement
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.IGuiHandler
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.discovery.ASMDataTable
+Import: net.minecraftforge.fml.common.IWorldGenerator
+Import: net.minecraftforge.fml.common.IFuelHandler
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.storage.WorldSavedData
+Import: net.minecraft.world.gen.IChunkGenerator
+Import: net.minecraft.world.chunk.IChunkProvider
+Import: net.minecraft.world.biome.Biome
+Import: net.minecraft.world.World
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.potion.Potion
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayerMP
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.block.Block
+Import: java.util.function.Supplier
+Import: java.util.Random
+Import: java.util.Map
+Import: java.util.List
+Import: java.util.HashMap
+Import: java.util.Collections
+Import: java.util.ArrayList
+Import: java.lang.annotation.RetentionPolicy
+Import: java.lang.annotation.Retention
+End  Processing: net/daysantace/elysiancurrency/ElementsElysianCurrency.java
+
+Start Processing: net/daysantace/elysiancurrency/ElysianCurrency.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper
+Import: net.minecraftforge.fml.common.network.NetworkRegistry
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.SidedProxy
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fluids.FluidRegistry
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.common.MinecraftForge
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.biome.Biome
+Import: net.minecraft.potion.Potion
+Import: net.minecraft.item.Item
+Import: net.minecraft.block.Block
+Import: java.util.function.Supplier
+End  Processing: net/daysantace/elysiancurrency/ElysianCurrency.java
+
+Start Processing: net/daysantace/elysiancurrency/ElysianCurrencyVariables.java
+FOUND CONSTR method net/daysantace/elysiancurrency/ElysianCurrencyVariables/MapVariables/MapVariables ()V net/daysantace/elysiancurrency/ElysianCurrencyVariables/MapVariables
+FOUND CONSTR method net/daysantace/elysiancurrency/ElysianCurrencyVariables/MapVariables/MapVariables (Ljava/lang/String;)V net/daysantace/elysiancurrency/ElysianCurrencyVariables/MapVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[847,858]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[927,937]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[1034,1043]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[1064,1072]::isRemote->field_72995_K
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1382,1395]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[1398,1411]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1518,1531]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[1534,1541]::setData->func_75745_a
+FOUND CONSTR method net/daysantace/elysiancurrency/ElysianCurrencyVariables/WorldVariables/WorldVariables ()V net/daysantace/elysiancurrency/ElysianCurrencyVariables/WorldVariables
+FOUND CONSTR method net/daysantace/elysiancurrency/ElysianCurrencyVariables/WorldVariables/WorldVariables (Ljava/lang/String;)V net/daysantace/elysiancurrency/ElysianCurrencyVariables/WorldVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[1884,1895]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[1964,1974]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[2071,2080]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[2101,2109]::isRemote->field_72995_K
+Rename field net/minecraft/world/World/provider[2319,2327]::provider->field_73011_w
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[2488,2501]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[2633,2640]::setData->func_75745_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[2999,3005]::player->field_147369_b
+Rename method net/minecraft/entity/player/EntityPlayerMP/getServerWorld ()Lnet/minecraft/world/WorldServer;[3014,3028]::getServerWorld->func_71121_q
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[3037,3053]::addScheduledTask->func_152344_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[3111,3117]::player->field_147369_b
+Rename field net/minecraft/entity/Entity/world[3126,3131]::world->field_70170_p
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3167,3179]::getMinecraft->func_71410_x
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[3182,3198]::addScheduledTask->func_152344_a
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3239,3251]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[3254,3260]::player->field_71439_g
+Rename field net/minecraft/entity/Entity/world[3268,3273]::world->field_70170_p
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[3465,3474]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/provider[3644,3652]::provider->field_73011_w
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[3721,3734]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3737,3744]::setData->func_75745_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3834,3841]::setData->func_75745_a
+FOUND CONSTR method net/daysantace/elysiancurrency/ElysianCurrencyVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage ()V net/daysantace/elysiancurrency/ElysianCurrencyVariables/WorldSavedDataSyncMessage
+FOUND CONSTR method net/daysantace/elysiancurrency/ElysianCurrencyVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage (ILnet/minecraft/world/storage/WorldSavedData;)V net/daysantace/elysiancurrency/ElysianCurrencyVariables/WorldSavedDataSyncMessage
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[4330,4340]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[4598,4609]::readFromNBT->func_76184_a
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.ByteBufUtils
+Import: net.minecraft.world.storage.WorldSavedData
+Import: net.minecraft.world.World
+Import: net.minecraft.nbt.NBTTagCompound
+Import: net.minecraft.client.Minecraft
+End  Processing: net/daysantace/elysiancurrency/ElysianCurrencyVariables.java
+
+Start Processing: net/daysantace/elysiancurrency/IProxyElysianCurrency.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: net/daysantace/elysiancurrency/IProxyElysianCurrency.java
+
+Start Processing: net/daysantace/elysiancurrency/ServerProxyElysianCurrency.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: net/daysantace/elysiancurrency/ServerProxyElysianCurrency.java
+
+Start Processing: net/daysantace/elysiancurrency/creativetab/TabElysianMoney.java
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+FOUND CONSTR method net/daysantace/elysiancurrency/creativetab/TabElysianMoney/TabElysianMoney (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V net/daysantace/elysiancurrency/creativetab/TabElysianMoney
+Rename method net/minecraft/creativetab/CreativeTabs/getTabIconItem ()Lnet/minecraft/item/ItemStack;[737,751]::getTabIconItem->func_78016_d
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundOne
+Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
+End  Processing: net/daysantace/elysiancurrency/creativetab/TabElysianMoney.java
+
+Start Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundFifty.java
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemNovaterraPoundFifty/ItemNovaterraPoundFifty (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V net/daysantace/elysiancurrency/item/ItemNovaterraPoundFifty
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemNovaterraPoundFifty/ItemCustom/ItemCustom ()V net/daysantace/elysiancurrency/item/ItemNovaterraPoundFifty/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1390,1402]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1411,1423]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1436,1454]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1521,1535]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1590,1611]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1655,1676]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1741,1756]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.daysantace.elysiancurrency.creativetab.TabElysianMoney
+Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
+End  Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundFifty.java
+
+Start Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundFive.java
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemNovaterraPoundFive/ItemNovaterraPoundFive (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V net/daysantace/elysiancurrency/item/ItemNovaterraPoundFive
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemNovaterraPoundFive/ItemCustom/ItemCustom ()V net/daysantace/elysiancurrency/item/ItemNovaterraPoundFive/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1386,1398]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1407,1419]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1432,1450]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1515,1529]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1584,1605]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1649,1670]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1735,1750]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.daysantace.elysiancurrency.creativetab.TabElysianMoney
+Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
+End  Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundFive.java
+
+Start Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundFiveHundred.java
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemNovaterraPoundFiveHundred/ItemNovaterraPoundFiveHundred (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V net/daysantace/elysiancurrency/item/ItemNovaterraPoundFiveHundred
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemNovaterraPoundFiveHundred/ItemCustom/ItemCustom ()V net/daysantace/elysiancurrency/item/ItemNovaterraPoundFiveHundred/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1414,1426]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1435,1447]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1460,1478]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1557,1571]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1626,1647]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1691,1712]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1777,1792]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.daysantace.elysiancurrency.creativetab.TabElysianMoney
+Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
+End  Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundFiveHundred.java
+
+Start Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundOne.java
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemNovaterraPoundOne/ItemNovaterraPoundOne (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V net/daysantace/elysiancurrency/item/ItemNovaterraPoundOne
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemNovaterraPoundOne/ItemCustom/ItemCustom ()V net/daysantace/elysiancurrency/item/ItemNovaterraPoundOne/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1382,1394]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1403,1415]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1428,1446]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1509,1523]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1578,1599]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1643,1664]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1729,1744]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.daysantace.elysiancurrency.creativetab.TabElysianMoney
+Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
+End  Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundOne.java
+
+Start Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundOneHundred.java
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemNovaterraPoundOneHundred/ItemNovaterraPoundOneHundred (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V net/daysantace/elysiancurrency/item/ItemNovaterraPoundOneHundred
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemNovaterraPoundOneHundred/ItemCustom/ItemCustom ()V net/daysantace/elysiancurrency/item/ItemNovaterraPoundOneHundred/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1410,1422]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1431,1443]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1456,1474]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1551,1565]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1620,1641]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1685,1706]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1771,1786]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.daysantace.elysiancurrency.creativetab.TabElysianMoney
+Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
+End  Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundOneHundred.java
+
+Start Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundOneThousand.java
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemNovaterraPoundOneThousand/ItemNovaterraPoundOneThousand (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V net/daysantace/elysiancurrency/item/ItemNovaterraPoundOneThousand
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemNovaterraPoundOneThousand/ItemCustom/ItemCustom ()V net/daysantace/elysiancurrency/item/ItemNovaterraPoundOneThousand/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1415,1427]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1436,1448]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1461,1479]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1558,1572]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1627,1648]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1692,1713]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1778,1793]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.daysantace.elysiancurrency.creativetab.TabElysianMoney
+Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
+End  Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundOneThousand.java
+
+Start Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundTen.java
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemNovaterraPoundTen/ItemNovaterraPoundTen (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V net/daysantace/elysiancurrency/item/ItemNovaterraPoundTen
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemNovaterraPoundTen/ItemCustom/ItemCustom ()V net/daysantace/elysiancurrency/item/ItemNovaterraPoundTen/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1382,1394]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1403,1415]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1428,1446]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1509,1523]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1578,1599]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1643,1664]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1729,1744]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.daysantace.elysiancurrency.creativetab.TabElysianMoney
+Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
+End  Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundTen.java
+
+Start Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwenty.java
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwenty/ItemNovaterraPoundTwenty (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwenty
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwenty/ItemCustom/ItemCustom ()V net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwenty/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1394,1406]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1415,1427]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1440,1458]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1527,1541]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1596,1617]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1661,1682]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1747,1762]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.daysantace.elysiancurrency.creativetab.TabElysianMoney
+Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
+End  Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwenty.java
+
+Start Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwo.java
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwo/ItemNovaterraPoundTwo (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwo
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwo/ItemCustom/ItemCustom ()V net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwo/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1382,1394]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1403,1415]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1428,1446]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1509,1523]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1578,1599]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1643,1664]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1729,1744]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.daysantace.elysiancurrency.creativetab.TabElysianMoney
+Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
+End  Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwo.java
+
+Start Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwoHundred.java
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwoHundred/ItemNovaterraPoundTwoHundred (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwoHundred
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwoHundred/ItemCustom/ItemCustom ()V net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwoHundred/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1410,1422]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1431,1443]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1456,1474]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1551,1565]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1620,1641]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1685,1706]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1771,1786]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.daysantace.elysiancurrency.creativetab.TabElysianMoney
+Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
+End  Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwoHundred.java
+

@@ -1,0 +1,55 @@
+Unsupposrted library path: C:\Users\Joshu\MCreatorWorkspaces\elysiancurrency\build\classes\java\api
+Unsupposrted library path: C:\Users\Joshu\MCreatorWorkspaces\elysiancurrency\build\resources\api
+Symbol range map extraction starting
+Processing 17 files
+startProcessing "net/daysantace/elysiancurrency/ClientProxyElysianCurrency.java" md5: 94d45490b9e1bd0d928f9206390d2deb
+endProcessing "net/daysantace/elysiancurrency/ClientProxyElysianCurrency.java"
+
+startProcessing "net/daysantace/elysiancurrency/ElementsElysianCurrency.java" md5: e6345cc3c9f01773f18b5b1eca333fd2
+endProcessing "net/daysantace/elysiancurrency/ElementsElysianCurrency.java"
+
+startProcessing "net/daysantace/elysiancurrency/ElysianCurrency.java" md5: da72c8369fbc285979572dbdc4e0dc7f
+endProcessing "net/daysantace/elysiancurrency/ElysianCurrency.java"
+
+startProcessing "net/daysantace/elysiancurrency/ElysianCurrencyVariables.java" md5: 8f2c9b4781be53a386d8cbf750e64b2c
+endProcessing "net/daysantace/elysiancurrency/ElysianCurrencyVariables.java"
+
+startProcessing "net/daysantace/elysiancurrency/IProxyElysianCurrency.java" md5: 2940621195b7a3d18c6f31b93a647f00
+endProcessing "net/daysantace/elysiancurrency/IProxyElysianCurrency.java"
+
+startProcessing "net/daysantace/elysiancurrency/ServerProxyElysianCurrency.java" md5: 10375a0caecae30478efc7e03ff4d635
+endProcessing "net/daysantace/elysiancurrency/ServerProxyElysianCurrency.java"
+
+startProcessing "net/daysantace/elysiancurrency/creativetab/TabElysianMoney.java" md5: f7e4379d812e995a99f9cc3a843fbe86
+endProcessing "net/daysantace/elysiancurrency/creativetab/TabElysianMoney.java"
+
+startProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundFifty.java" md5: b4cea26f60c98a5e345520f018ed0047
+endProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundFifty.java"
+
+startProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundFive.java" md5: e1c55899a9ab395ff7c82d90cece34ae
+endProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundFive.java"
+
+startProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundFiveHundred.java" md5: 9ac4c5697fb92c8bd61e292b878bb12a
+endProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundFiveHundred.java"
+
+startProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundOne.java" md5: 867176e0f241473be35ced7712113d1a
+endProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundOne.java"
+
+startProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundOneHundred.java" md5: 3d86b7e2cf44ab622d8206ad20d298de
+endProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundOneHundred.java"
+
+startProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundOneThousand.java" md5: 99e00b27b064360eb28bf98cac33cfa1
+endProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundOneThousand.java"
+
+startProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundTen.java" md5: 3e4dc19fb2d1606fee62a614158e5095
+endProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundTen.java"
+
+startProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwenty.java" md5: 0521c29fdbe60f710e7556283c45a5a2
+endProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwenty.java"
+
+startProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwo.java" md5: 16da1746a3fb41467eddccf6ce12d154
+endProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwo.java"
+
+startProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwoHundred.java" md5: 605da0ca9480c9b06f0ed2adea30787e
+endProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwoHundred.java"
+
