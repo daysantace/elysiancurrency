@@ -1,4 +1,4 @@
-Processing 17 files
+Processing 20 files
 Start Processing: net/daysantace/elysiancurrency/ClientProxyElysianCurrency.java
 Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
 Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
@@ -443,4 +443,82 @@ Import: net.minecraft.block.state.IBlockState
 Import: net.daysantace.elysiancurrency.creativetab.TabElysianMoney
 Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
 End  Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwoHundred.java
+
+Start Processing: net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemVastiBuckFive/ItemVastiBuckFive (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V net/daysantace/elysiancurrency/item/ItemVastiBuckFive
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemVastiBuckFive/ItemCustom/ItemCustom ()V net/daysantace/elysiancurrency/item/ItemVastiBuckFive/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1367,1379]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1388,1400]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1413,1431]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1486,1500]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1555,1576]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1620,1641]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1706,1721]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.daysantace.elysiancurrency.creativetab.TabElysianMoney
+Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
+End  Processing: net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java
+
+Start Processing: net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemVastiBuckOne/ItemVastiBuckOne (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V net/daysantace/elysiancurrency/item/ItemVastiBuckOne
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemVastiBuckOne/ItemCustom/ItemCustom ()V net/daysantace/elysiancurrency/item/ItemVastiBuckOne/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1363,1375]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1384,1396]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1409,1427]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1480,1494]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1549,1570]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1614,1635]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1700,1715]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.daysantace.elysiancurrency.creativetab.TabElysianMoney
+Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
+End  Processing: net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java
+
+Start Processing: net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemVastiBuckTen/ItemVastiBuckTen (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V net/daysantace/elysiancurrency/item/ItemVastiBuckTen
+FOUND CONSTR method net/daysantace/elysiancurrency/item/ItemVastiBuckTen/ItemCustom/ItemCustom ()V net/daysantace/elysiancurrency/item/ItemVastiBuckTen/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1363,1375]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1384,1396]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1409,1427]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1480,1494]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1549,1570]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1614,1635]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1700,1715]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.daysantace.elysiancurrency.creativetab.TabElysianMoney
+Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
+End  Processing: net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java
 

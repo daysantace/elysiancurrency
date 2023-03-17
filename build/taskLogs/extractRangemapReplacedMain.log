@@ -1,7 +1,7 @@
 Unsupposrted library path: C:\Users\Joshu\MCreatorWorkspaces\elysiancurrency\build\classes\java\api
 Unsupposrted library path: C:\Users\Joshu\MCreatorWorkspaces\elysiancurrency\build\resources\api
 Symbol range map extraction starting
-Processing 17 files
+Processing 20 files
 startProcessing "net/daysantace/elysiancurrency/ClientProxyElysianCurrency.java" md5: 94d45490b9e1bd0d928f9206390d2deb
 endProcessing "net/daysantace/elysiancurrency/ClientProxyElysianCurrency.java"
 
@@ -52,4 +52,13 @@ endProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwo.java"
 
 startProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwoHundred.java" md5: 605da0ca9480c9b06f0ed2adea30787e
 endProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwoHundred.java"
+
+startProcessing "net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java" md5: 964111787318bb278513a65ac6075e41
+endProcessing "net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java"
+
+startProcessing "net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java" md5: 2677d5744594acf0b0292abb0daa5748
+endProcessing "net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java"
+
+startProcessing "net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java" md5: 0994c57ce4753ba297c7669b91ad9436
+endProcessing "net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java"
 

@@ -1,7 +1,7 @@
 Unsupposrted library path: C:\Users\Joshu\MCreatorWorkspaces\elysiancurrency\build\classes\java\api
 Unsupposrted library path: C:\Users\Joshu\MCreatorWorkspaces\elysiancurrency\build\resources\api
 Symbol range map extraction starting
-Processing 17 files
+Processing 20 files
 startProcessing "net/daysantace/elysiancurrency/ClientProxyElysianCurrency.java" md5: 94d45490b9e1bd0d928f9206390d2deb
 @|net/daysantace/elysiancurrency/ClientProxyElysianCurrency.java|8|38|net.daysantace.elysiancurrency|package|net.daysantace.elysiancurrency|(file)
 Class Start: net.daysantace.elysiancurrency.ClientProxyElysianCurrency
@@ -1758,4 +1758,220 @@ Class Start: net.daysantace.elysiancurrency.item.ItemNovaterraPoundTwoHundred
    Class End  : net.daysantace.elysiancurrency.item.ItemNovaterraPoundTwoHundred.ItemCustom
 Class End  : net.daysantace.elysiancurrency.item.ItemNovaterraPoundTwoHundred
 endProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundTwoHundred.java"
+
+startProcessing "net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java" md5: 964111787318bb278513a65ac6075e41
+@|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|10|45|net.daysantace.elysiancurrency.item|package|net.daysantace.elysiancurrency.item|(file)
+Class Start: net.daysantace.elysiancurrency.item.ItemVastiBuckFive
+   @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|654|692|ElementsElysianCurrency.ModElement.Tag|class|net.daysantace.elysiancurrency.ElementsElysianCurrency.ModElement.Tag|false
+   @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|707|724|ItemVastiBuckFive|class|net.daysantace.elysiancurrency.item.ItemVastiBuckFive|false
+   @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|733|767|ElementsElysianCurrency.ModElement|class|net.daysantace.elysiancurrency.ElementsElysianCurrency.ModElement|false
+   @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|854|858|Item|class|net.minecraft.item.Item|false
+   @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|773|798|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
+   @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|854|858|Item|class|net.minecraft.item.Item|false
+   @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|859|864|block|field|net.daysantace.elysiancurrency.item.ItemVastiBuckFive|block|
+   Method Start: ItemVastiBuckFive(Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|924|932|instance|param|net.daysantace.elysiancurrency.item.ItemVastiBuckFive|ItemVastiBuckFive|(Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V|instance|0
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|882|899|ItemVastiBuckFive|method|net.daysantace.elysiancurrency.item.ItemVastiBuckFive|ItemVastiBuckFive|(Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|900|923|ElementsElysianCurrency|class|net.daysantace.elysiancurrency.ElementsElysianCurrency|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|945|953|instance|param|net.daysantace.elysiancurrency.item.ItemVastiBuckFive|ItemVastiBuckFive|(Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V|instance|0
+   Method End: ItemVastiBuckFive(Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V
+   Method Start: initElements()V
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|969|977|Override|class|java.lang.Override|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|992|1004|initElements|method|net.daysantace.elysiancurrency.ElementsElysianCurrency.ModElement|initElements|()V
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1012|1020|elements|field|net.daysantace.elysiancurrency.ElementsElysianCurrency.ModElement|elements
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1021|1026|items|field|net.daysantace.elysiancurrency.ElementsElysianCurrency|items
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1027|1030|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1041|1051|ItemCustom|class|net.daysantace.elysiancurrency.item.ItemVastiBuckFive.ItemCustom|false
+   Method End: initElements()V
+   Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1147|1152|event|param|net.daysantace.elysiancurrency.item.ItemVastiBuckFive|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1065|1073|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1074|1078|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1079|1085|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1090|1098|Override|class|java.lang.Override|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1113|1127|registerModels|method|net.daysantace.elysiancurrency.ElementsElysianCurrency.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1128|1146|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1159|1170|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1171|1201|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1202|1207|block|field|net.daysantace.elysiancurrency.item.ItemVastiBuckFive|block
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1216|1237|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+   Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Class Start: net.daysantace.elysiancurrency.item.ItemVastiBuckFive.ItemCustom
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1312|1322|ItemCustom|class|net.daysantace.elysiancurrency.item.ItemVastiBuckFive.ItemCustom|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1331|1335|Item|class|net.minecraft.item.Item|false
+      Method Start: ItemCustom()V
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1348|1358|ItemCustom|method|net.daysantace.elysiancurrency.item.ItemVastiBuckFive.ItemCustom|ItemCustom|()V
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1367|1379|setMaxDamage|method|net.minecraft.item.Item|setMaxDamage|(I)Lnet/minecraft/item/Item;
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1388|1400|maxStackSize|field|net.minecraft.item.Item|maxStackSize
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1411|1429|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1452|1467|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1490|1504|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1505|1520|TabElysianMoney|class|net.daysantace.elysiancurrency.creativetab.TabElysianMoney|false
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1521|1524|tab|field|net.daysantace.elysiancurrency.creativetab.TabElysianMoney|tab
+      Method End: ItemCustom()V
+      Method Start: getItemEnchantability()I
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1538|1546|Override|class|java.lang.Override|false
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1561|1582|getItemEnchantability|method|net.minecraft.item.Item|getItemEnchantability|()I
+      Method End: getItemEnchantability()I
+      Method Start: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1667|1676|itemstack|param|net.daysantace.elysiancurrency.item.ItemVastiBuckFive.ItemCustom|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I|itemstack|0
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1612|1620|Override|class|java.lang.Override|false
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1635|1656|getMaxItemUseDuration|method|net.minecraft.item.Item|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1657|1666|ItemStack|class|net.minecraft.item.ItemStack|false
+      Method End: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+      Method Start: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1756|1769|par1ItemStack|param|net.daysantace.elysiancurrency.item.ItemVastiBuckFive.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par1ItemStack|0
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1783|1792|par2Block|param|net.daysantace.elysiancurrency.item.ItemVastiBuckFive.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par2Block|1
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1705|1713|Override|class|java.lang.Override|false
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1730|1745|getDestroySpeed|method|net.minecraft.item.Item|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1746|1755|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java|1771|1782|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      Method End: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+   Class End  : net.daysantace.elysiancurrency.item.ItemVastiBuckFive.ItemCustom
+Class End  : net.daysantace.elysiancurrency.item.ItemVastiBuckFive
+endProcessing "net/daysantace/elysiancurrency/item/ItemVastiBuckFive.java"
+
+startProcessing "net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java" md5: 2677d5744594acf0b0292abb0daa5748
+@|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|10|45|net.daysantace.elysiancurrency.item|package|net.daysantace.elysiancurrency.item|(file)
+Class Start: net.daysantace.elysiancurrency.item.ItemVastiBuckOne
+   @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|654|692|ElementsElysianCurrency.ModElement.Tag|class|net.daysantace.elysiancurrency.ElementsElysianCurrency.ModElement.Tag|false
+   @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|707|723|ItemVastiBuckOne|class|net.daysantace.elysiancurrency.item.ItemVastiBuckOne|false
+   @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|732|766|ElementsElysianCurrency.ModElement|class|net.daysantace.elysiancurrency.ElementsElysianCurrency.ModElement|false
+   @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|852|856|Item|class|net.minecraft.item.Item|false
+   @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|772|797|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
+   @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|852|856|Item|class|net.minecraft.item.Item|false
+   @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|857|862|block|field|net.daysantace.elysiancurrency.item.ItemVastiBuckOne|block|
+   Method Start: ItemVastiBuckOne(Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|921|929|instance|param|net.daysantace.elysiancurrency.item.ItemVastiBuckOne|ItemVastiBuckOne|(Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V|instance|0
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|880|896|ItemVastiBuckOne|method|net.daysantace.elysiancurrency.item.ItemVastiBuckOne|ItemVastiBuckOne|(Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|897|920|ElementsElysianCurrency|class|net.daysantace.elysiancurrency.ElementsElysianCurrency|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|942|950|instance|param|net.daysantace.elysiancurrency.item.ItemVastiBuckOne|ItemVastiBuckOne|(Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V|instance|0
+   Method End: ItemVastiBuckOne(Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V
+   Method Start: initElements()V
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|966|974|Override|class|java.lang.Override|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|989|1001|initElements|method|net.daysantace.elysiancurrency.ElementsElysianCurrency.ModElement|initElements|()V
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1009|1017|elements|field|net.daysantace.elysiancurrency.ElementsElysianCurrency.ModElement|elements
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1018|1023|items|field|net.daysantace.elysiancurrency.ElementsElysianCurrency|items
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1024|1027|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1038|1048|ItemCustom|class|net.daysantace.elysiancurrency.item.ItemVastiBuckOne.ItemCustom|false
+   Method End: initElements()V
+   Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1144|1149|event|param|net.daysantace.elysiancurrency.item.ItemVastiBuckOne|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1062|1070|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1071|1075|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1076|1082|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1087|1095|Override|class|java.lang.Override|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1110|1124|registerModels|method|net.daysantace.elysiancurrency.ElementsElysianCurrency.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1125|1143|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1156|1167|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1168|1198|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1199|1204|block|field|net.daysantace.elysiancurrency.item.ItemVastiBuckOne|block
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1213|1234|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+   Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Class Start: net.daysantace.elysiancurrency.item.ItemVastiBuckOne.ItemCustom
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1308|1318|ItemCustom|class|net.daysantace.elysiancurrency.item.ItemVastiBuckOne.ItemCustom|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1327|1331|Item|class|net.minecraft.item.Item|false
+      Method Start: ItemCustom()V
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1344|1354|ItemCustom|method|net.daysantace.elysiancurrency.item.ItemVastiBuckOne.ItemCustom|ItemCustom|()V
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1363|1375|setMaxDamage|method|net.minecraft.item.Item|setMaxDamage|(I)Lnet/minecraft/item/Item;
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1384|1396|maxStackSize|field|net.minecraft.item.Item|maxStackSize
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1407|1425|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1447|1462|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1484|1498|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1499|1514|TabElysianMoney|class|net.daysantace.elysiancurrency.creativetab.TabElysianMoney|false
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1515|1518|tab|field|net.daysantace.elysiancurrency.creativetab.TabElysianMoney|tab
+      Method End: ItemCustom()V
+      Method Start: getItemEnchantability()I
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1532|1540|Override|class|java.lang.Override|false
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1555|1576|getItemEnchantability|method|net.minecraft.item.Item|getItemEnchantability|()I
+      Method End: getItemEnchantability()I
+      Method Start: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1661|1670|itemstack|param|net.daysantace.elysiancurrency.item.ItemVastiBuckOne.ItemCustom|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I|itemstack|0
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1606|1614|Override|class|java.lang.Override|false
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1629|1650|getMaxItemUseDuration|method|net.minecraft.item.Item|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1651|1660|ItemStack|class|net.minecraft.item.ItemStack|false
+      Method End: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+      Method Start: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1750|1763|par1ItemStack|param|net.daysantace.elysiancurrency.item.ItemVastiBuckOne.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par1ItemStack|0
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1777|1786|par2Block|param|net.daysantace.elysiancurrency.item.ItemVastiBuckOne.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par2Block|1
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1699|1707|Override|class|java.lang.Override|false
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1724|1739|getDestroySpeed|method|net.minecraft.item.Item|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1740|1749|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java|1765|1776|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      Method End: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+   Class End  : net.daysantace.elysiancurrency.item.ItemVastiBuckOne.ItemCustom
+Class End  : net.daysantace.elysiancurrency.item.ItemVastiBuckOne
+endProcessing "net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java"
+
+startProcessing "net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java" md5: 0994c57ce4753ba297c7669b91ad9436
+@|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|10|45|net.daysantace.elysiancurrency.item|package|net.daysantace.elysiancurrency.item|(file)
+Class Start: net.daysantace.elysiancurrency.item.ItemVastiBuckTen
+   @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|654|692|ElementsElysianCurrency.ModElement.Tag|class|net.daysantace.elysiancurrency.ElementsElysianCurrency.ModElement.Tag|false
+   @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|707|723|ItemVastiBuckTen|class|net.daysantace.elysiancurrency.item.ItemVastiBuckTen|false
+   @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|732|766|ElementsElysianCurrency.ModElement|class|net.daysantace.elysiancurrency.ElementsElysianCurrency.ModElement|false
+   @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|852|856|Item|class|net.minecraft.item.Item|false
+   @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|772|797|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
+   @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|852|856|Item|class|net.minecraft.item.Item|false
+   @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|857|862|block|field|net.daysantace.elysiancurrency.item.ItemVastiBuckTen|block|
+   Method Start: ItemVastiBuckTen(Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|921|929|instance|param|net.daysantace.elysiancurrency.item.ItemVastiBuckTen|ItemVastiBuckTen|(Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V|instance|0
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|880|896|ItemVastiBuckTen|method|net.daysantace.elysiancurrency.item.ItemVastiBuckTen|ItemVastiBuckTen|(Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|897|920|ElementsElysianCurrency|class|net.daysantace.elysiancurrency.ElementsElysianCurrency|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|942|950|instance|param|net.daysantace.elysiancurrency.item.ItemVastiBuckTen|ItemVastiBuckTen|(Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V|instance|0
+   Method End: ItemVastiBuckTen(Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V
+   Method Start: initElements()V
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|966|974|Override|class|java.lang.Override|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|989|1001|initElements|method|net.daysantace.elysiancurrency.ElementsElysianCurrency.ModElement|initElements|()V
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1009|1017|elements|field|net.daysantace.elysiancurrency.ElementsElysianCurrency.ModElement|elements
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1018|1023|items|field|net.daysantace.elysiancurrency.ElementsElysianCurrency|items
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1024|1027|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1038|1048|ItemCustom|class|net.daysantace.elysiancurrency.item.ItemVastiBuckTen.ItemCustom|false
+   Method End: initElements()V
+   Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1144|1149|event|param|net.daysantace.elysiancurrency.item.ItemVastiBuckTen|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1062|1070|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1071|1075|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1076|1082|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1087|1095|Override|class|java.lang.Override|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1110|1124|registerModels|method|net.daysantace.elysiancurrency.ElementsElysianCurrency.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1125|1143|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1156|1167|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1168|1198|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1199|1204|block|field|net.daysantace.elysiancurrency.item.ItemVastiBuckTen|block
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1213|1234|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+   Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Class Start: net.daysantace.elysiancurrency.item.ItemVastiBuckTen.ItemCustom
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1308|1318|ItemCustom|class|net.daysantace.elysiancurrency.item.ItemVastiBuckTen.ItemCustom|false
+      @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1327|1331|Item|class|net.minecraft.item.Item|false
+      Method Start: ItemCustom()V
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1344|1354|ItemCustom|method|net.daysantace.elysiancurrency.item.ItemVastiBuckTen.ItemCustom|ItemCustom|()V
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1363|1375|setMaxDamage|method|net.minecraft.item.Item|setMaxDamage|(I)Lnet/minecraft/item/Item;
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1384|1396|maxStackSize|field|net.minecraft.item.Item|maxStackSize
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1407|1425|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1447|1462|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1484|1498|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1499|1514|TabElysianMoney|class|net.daysantace.elysiancurrency.creativetab.TabElysianMoney|false
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1515|1518|tab|field|net.daysantace.elysiancurrency.creativetab.TabElysianMoney|tab
+      Method End: ItemCustom()V
+      Method Start: getItemEnchantability()I
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1532|1540|Override|class|java.lang.Override|false
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1555|1576|getItemEnchantability|method|net.minecraft.item.Item|getItemEnchantability|()I
+      Method End: getItemEnchantability()I
+      Method Start: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1661|1670|itemstack|param|net.daysantace.elysiancurrency.item.ItemVastiBuckTen.ItemCustom|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I|itemstack|0
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1606|1614|Override|class|java.lang.Override|false
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1629|1650|getMaxItemUseDuration|method|net.minecraft.item.Item|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1651|1660|ItemStack|class|net.minecraft.item.ItemStack|false
+      Method End: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+      Method Start: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1750|1763|par1ItemStack|param|net.daysantace.elysiancurrency.item.ItemVastiBuckTen.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par1ItemStack|0
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1777|1786|par2Block|param|net.daysantace.elysiancurrency.item.ItemVastiBuckTen.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par2Block|1
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1699|1707|Override|class|java.lang.Override|false
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1724|1739|getDestroySpeed|method|net.minecraft.item.Item|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1740|1749|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java|1765|1776|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      Method End: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+   Class End  : net.daysantace.elysiancurrency.item.ItemVastiBuckTen.ItemCustom
+Class End  : net.daysantace.elysiancurrency.item.ItemVastiBuckTen
+endProcessing "net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java"
 
