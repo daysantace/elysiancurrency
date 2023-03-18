@@ -1,4 +1,4 @@
-Processing 20 files
+Processing 26 files
 Start Processing: net/daysantace/elysiancurrency/ClientProxyElysianCurrency.java
 Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
 Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
@@ -18,20 +18,24 @@ New Key: class net/daysantace/elysiancurrency/ElysianCurrencyVariables
 New Key: class net/daysantace/elysiancurrency/ElysianCurrencyVariables
 New Key: class net/minecraftforge/event/RegistryEvent
 New Key: class java/util/Map
-Rename field net/minecraft/world/World/provider[3717,3725]::provider->field_73011_w
-Rename field net/minecraft/entity/Entity/world[4106,4111]::world->field_70170_p
-Rename field net/minecraft/world/World/isRemote[4120,4128]::isRemote->field_72995_K
+Rename field net/minecraft/world/World/provider[3843,3851]::provider->field_73011_w
+Rename field net/minecraft/entity/Entity/world[4232,4237]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4246,4254]::isRemote->field_72995_K
 New Key: class net/daysantace/elysiancurrency/ElysianCurrencyVariables
-Rename field net/minecraft/entity/Entity/world[4221,4226]::world->field_70170_p
+Rename field net/minecraft/entity/Entity/world[4347,4352]::world->field_70170_p
 New Key: class net/daysantace/elysiancurrency/ElysianCurrencyVariables
-Rename field net/minecraft/entity/Entity/world[4325,4330]::world->field_70170_p
+Rename field net/minecraft/entity/Entity/world[4451,4456]::world->field_70170_p
 New Key: class net/daysantace/elysiancurrency/ElysianCurrencyVariables
 New Key: class net/daysantace/elysiancurrency/ElysianCurrencyVariables
-Rename field net/minecraft/entity/Entity/world[4873,4878]::world->field_70170_p
-Rename field net/minecraft/world/World/isRemote[4887,4895]::isRemote->field_72995_K
+Rename field net/minecraft/entity/Entity/world[4999,5004]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[5013,5021]::isRemote->field_72995_K
 New Key: class net/daysantace/elysiancurrency/ElysianCurrencyVariables
-Rename field net/minecraft/entity/Entity/world[4992,4997]::world->field_70170_p
+Rename field net/minecraft/entity/Entity/world[5118,5123]::world->field_70170_p
 New Key: class net/daysantace/elysiancurrency/ElysianCurrencyVariables
+New Key: class net/daysantace/elysiancurrency/gui/GuiNovaterraMintGUI
+New Key: class net/daysantace/elysiancurrency/gui/GuiVastiMintGUI
+New Key: class net/daysantace/elysiancurrency/gui/GuiNovaterraMintGUI
+New Key: class net/daysantace/elysiancurrency/gui/GuiVastiMintGUI
 FOUND CONSTR method net/daysantace/elysiancurrency/ElementsElysianCurrency/ModElement/ModElement (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;I)V net/daysantace/elysiancurrency/ElementsElysianCurrency/ModElement
 Import: net.minecraftforge.fml.relauncher.Side
 Import: net.minecraftforge.fml.common.registry.EntityEntry
@@ -59,6 +63,8 @@ Import: net.minecraft.item.Item
 Import: net.minecraft.entity.player.EntityPlayerMP
 Import: net.minecraft.entity.player.EntityPlayer
 Import: net.minecraft.block.Block
+Import: net.daysantace.elysiancurrency.gui.GuiVastiMintGUI
+Import: net.daysantace.elysiancurrency.gui.GuiNovaterraMintGUI
 Import: java.util.function.Supplier
 Import: java.util.Random
 Import: java.util.Map
@@ -171,6 +177,232 @@ Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
 Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
 End  Processing: net/daysantace/elysiancurrency/ServerProxyElysianCurrency.java
 
+Start Processing: net/daysantace/elysiancurrency/block/BlockNovaterraMint.java
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/daysantace/elysiancurrency/block/BlockNovaterraMint/BlockNovaterraMint (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V net/daysantace/elysiancurrency/block/BlockNovaterraMint
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[2648,2664]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/daysantace/elysiancurrency/block/BlockNovaterraMint/BlockCustom/BlockCustom ()V net/daysantace/elysiancurrency/block/BlockNovaterraMint/BlockCustom
+Rename field net/minecraft/block/material/Material/GROUND[2882,2888]::GROUND->field_151578_c
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[2903,2921]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[2939,2951]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[2963,2968]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[2984,2995]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[3008,3021]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[3032,3045]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[3055,3070]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[3079,3093]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/setBlockUnbreakable ()Lnet/minecraft/block/Block;[3119,3138]::setBlockUnbreakable->func_149722_s
+Rename method net/minecraft/block/ITileEntityProvider/createNewTileEntity (Lnet/minecraft/world/World;I)Lnet/minecraft/tileentity/TileEntity;[3177,3196]::createNewTileEntity->func_149915_a
+Rename method net/minecraft/block/Block/eventReceived (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;II)Z[3291,3304]::eventReceived->func_189539_a
+Rename method net/minecraft/block/Block/eventReceived (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;II)Z[3394,3407]::eventReceived->func_189539_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[3487,3500]::getTileEntity->func_175625_s
+Rename method net/minecraft/tileentity/TileEntity/receiveClientEvent (II)Z[3558,3576]::receiveClientEvent->func_145842_c
+Rename method net/minecraft/block/Block/getRenderType (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/EnumBlockRenderType;[3644,3657]::getRenderType->func_149645_b
+Rename method net/minecraft/block/Block/breakBlock (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V[3752,3762]::breakBlock->func_180663_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[3848,3861]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/InventoryHelper/dropInventoryItems (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/inventory/IInventory;)V[3937,3955]::dropInventoryItems->func_180175_a
+Rename method net/minecraft/world/World/removeTileEntity (Lnet/minecraft/util/math/BlockPos;)V[4005,4021]::removeTileEntity->func_175713_t
+Rename method net/minecraft/block/Block/breakBlock (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V[4035,4045]::breakBlock->func_180663_b
+Rename method net/minecraft/block/Block/hasComparatorInputOverride (Lnet/minecraft/block/state/IBlockState;)Z[4107,4133]::hasComparatorInputOverride->func_149740_M
+Rename method net/minecraft/block/Block/getComparatorInputOverride (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)I[4193,4219]::getComparatorInputOverride->func_180641_l
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[4298,4311]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/Container/calcRedstoneFromInventory (Lnet/minecraft/inventory/IInventory;)I[4388,4413]::calcRedstoneFromInventory->func_94526_b
+Rename method net/minecraft/block/Block/onBlockActivated (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z[4495,4511]::onBlockActivated->func_180639_a
+Rename method net/minecraft/block/Block/onBlockActivated (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z[4666,4682]::onBlockActivated->func_180639_a
+Rename method net/minecraft/util/math/Vec3i/getX ()I[4759,4763]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[4792,4796]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[4825,4829]::getZ->func_177952_p
+Rename method net/minecraft/util/NonNullList/withSize (ILjava/lang/Object;)Lnet/minecraft/util/NonNullList;[5163,5171]::withSize->func_191197_a
+Rename field net/minecraft/item/ItemStack/EMPTY[5190,5195]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/IInventory/getSizeInventory ()I[5234,5250]::getSizeInventory->func_70302_i_
+Rename method net/minecraft/inventory/IInventory/isEmpty ()Z[5304,5311]::isEmpty->func_191420_l
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[5386,5393]::isEmpty->func_190926_b
+Rename method net/minecraft/inventory/IInventory/isItemValidForSlot (ILnet/minecraft/item/ItemStack;)Z[5478,5496]::isItemValidForSlot->func_94041_b
+Rename method net/minecraft/inventory/IInventory/getStackInSlot (I)Lnet/minecraft/item/ItemStack;[5578,5592]::getStackInSlot->func_70301_a
+Rename method net/minecraft/world/IWorldNameable/getName ()Ljava/lang/String;[5669,5676]::getName->func_70005_c_
+Rename method net/minecraft/tileentity/TileEntity/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[5760,5771]::readFromNBT->func_145839_a
+Rename method net/minecraft/tileentity/TileEntity/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[5811,5822]::readFromNBT->func_145839_a
+Rename method net/minecraft/util/NonNullList/withSize (ILjava/lang/Object;)Lnet/minecraft/util/NonNullList;[5877,5885]::withSize->func_191197_a
+Rename method net/minecraft/inventory/IInventory/getSizeInventory ()I[5896,5912]::getSizeInventory->func_70302_i_
+Rename field net/minecraft/item/ItemStack/EMPTY[5923,5928]::EMPTY->field_190927_a
+Rename method net/minecraft/tileentity/TileEntityLockableLoot/checkLootAndRead (Lnet/minecraft/nbt/NBTTagCompound;)Z[5954,5970]::checkLootAndRead->func_184283_b
+Rename method net/minecraft/inventory/ItemStackHelper/loadAllItems (Lnet/minecraft/nbt/NBTTagCompound;Lnet/minecraft/util/NonNullList;)V[6000,6012]::loadAllItems->func_191283_b
+Rename method net/minecraft/tileentity/TileEntity/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[6083,6093]::writeToNBT->func_189515_b
+Rename method net/minecraft/tileentity/TileEntity/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[6134,6144]::writeToNBT->func_189515_b
+Rename method net/minecraft/tileentity/TileEntityLockableLoot/checkLootAndWrite (Lnet/minecraft/nbt/NBTTagCompound;)Z[6173,6190]::checkLootAndWrite->func_184282_c
+Rename method net/minecraft/inventory/ItemStackHelper/saveAllItems (Lnet/minecraft/nbt/NBTTagCompound;Lnet/minecraft/util/NonNullList;)Lnet/minecraft/nbt/NBTTagCompound;[6219,6231]::saveAllItems->func_191282_a
+Rename method net/minecraft/tileentity/TileEntity/getUpdatePacket ()Lnet/minecraft/network/play/server/SPacketUpdateTileEntity;[6332,6347]::getUpdatePacket->func_189518_D_
+Rename field net/minecraft/tileentity/TileEntity/pos[6395,6398]::pos->field_174879_c
+Rename method net/minecraft/tileentity/TileEntity/getUpdateTag ()Lnet/minecraft/nbt/NBTTagCompound;[6419,6431]::getUpdateTag->func_189517_E_
+Rename method net/minecraft/tileentity/TileEntity/getUpdateTag ()Lnet/minecraft/nbt/NBTTagCompound;[6483,6495]::getUpdateTag->func_189517_E_
+Rename method net/minecraft/tileentity/TileEntity/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[6518,6528]::writeToNBT->func_189515_b
+Rename method net/minecraft/tileentity/TileEntity/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[6663,6674]::readFromNBT->func_145839_a
+Rename method net/minecraft/network/play/server/SPacketUpdateTileEntity/getNbtCompound ()Lnet/minecraft/nbt/NBTTagCompound;[6681,6695]::getNbtCompound->func_148857_g
+Rename method net/minecraft/tileentity/TileEntity/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[6781,6792]::readFromNBT->func_145839_a
+Rename method net/minecraft/inventory/IInventory/getInventoryStackLimit ()I[6835,6857]::getInventoryStackLimit->func_70297_j_
+Rename method net/minecraft/world/IInteractionObject/getGuiID ()Ljava/lang/String;[6905,6913]::getGuiID->func_174875_k
+Rename method net/minecraft/world/IInteractionObject/createContainer (Lnet/minecraft/entity/player/InventoryPlayer;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/inventory/Container;[7007,7022]::createContainer->func_174876_a
+New Key: class net/daysantace/elysiancurrency/gui/GuiNovaterraMintGUI
+Rename method net/minecraft/tileentity/TileEntity/getWorld ()Lnet/minecraft/world/World;[7135,7143]::getWorld->func_145831_w
+Rename method net/minecraft/tileentity/TileEntity/getPos ()Lnet/minecraft/util/math/BlockPos;[7157,7163]::getPos->func_174877_v
+Rename method net/minecraft/util/math/Vec3i/getX ()I[7173,7177]::getX->func_177958_n
+Rename method net/minecraft/tileentity/TileEntity/getPos ()Lnet/minecraft/util/math/BlockPos;[7195,7201]::getPos->func_174877_v
+Rename method net/minecraft/util/math/Vec3i/getY ()I[7211,7215]::getY->func_177956_o
+Rename method net/minecraft/tileentity/TileEntity/getPos ()Lnet/minecraft/util/math/BlockPos;[7233,7239]::getPos->func_174877_v
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[7249,7253]::getZ->func_177952_p
+Rename method net/minecraft/tileentity/TileEntityLockableLoot/getItems ()Lnet/minecraft/util/NonNullList;[7339,7347]::getItems->func_190576_q
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.NonNullList
+Import: net.minecraft.util.EnumHand
+Import: net.minecraft.util.EnumFacing
+Import: net.minecraft.util.EnumBlockRenderType
+Import: net.minecraft.tileentity.TileEntityLockableLoot
+Import: net.minecraft.tileentity.TileEntity
+Import: net.minecraft.network.play.server.SPacketUpdateTileEntity
+Import: net.minecraft.network.NetworkManager
+Import: net.minecraft.nbt.NBTTagCompound
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.inventory.ItemStackHelper
+Import: net.minecraft.inventory.InventoryHelper
+Import: net.minecraft.inventory.Container
+Import: net.minecraft.entity.player.InventoryPlayer
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.ITileEntityProvider
+Import: net.minecraft.block.Block
+Import: net.daysantace.elysiancurrency.gui.GuiNovaterraMintGUI
+Import: net.daysantace.elysiancurrency.creativetab.TabElysianMoney
+Import: net.daysantace.elysiancurrency.ElysianCurrency
+Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
+End  Processing: net/daysantace/elysiancurrency/block/BlockNovaterraMint.java
+
+Start Processing: net/daysantace/elysiancurrency/block/BlockVastiMint.java
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/daysantace/elysiancurrency/block/BlockVastiMint/BlockVastiMint (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V net/daysantace/elysiancurrency/block/BlockVastiMint
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[2624,2640]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/daysantace/elysiancurrency/block/BlockVastiMint/BlockCustom/BlockCustom ()V net/daysantace/elysiancurrency/block/BlockVastiMint/BlockCustom
+Rename field net/minecraft/block/material/Material/GROUND[2854,2860]::GROUND->field_151578_c
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[2875,2893]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[2907,2919]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[2931,2936]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[2952,2963]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2976,2989]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[3000,3013]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[3023,3038]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[3047,3061]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/setBlockUnbreakable ()Lnet/minecraft/block/Block;[3087,3106]::setBlockUnbreakable->func_149722_s
+Rename method net/minecraft/block/ITileEntityProvider/createNewTileEntity (Lnet/minecraft/world/World;I)Lnet/minecraft/tileentity/TileEntity;[3145,3164]::createNewTileEntity->func_149915_a
+Rename method net/minecraft/block/Block/eventReceived (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;II)Z[3259,3272]::eventReceived->func_189539_a
+Rename method net/minecraft/block/Block/eventReceived (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;II)Z[3362,3375]::eventReceived->func_189539_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[3455,3468]::getTileEntity->func_175625_s
+Rename method net/minecraft/tileentity/TileEntity/receiveClientEvent (II)Z[3526,3544]::receiveClientEvent->func_145842_c
+Rename method net/minecraft/block/Block/getRenderType (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/EnumBlockRenderType;[3612,3625]::getRenderType->func_149645_b
+Rename method net/minecraft/block/Block/breakBlock (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V[3720,3730]::breakBlock->func_180663_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[3816,3829]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/InventoryHelper/dropInventoryItems (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/inventory/IInventory;)V[3905,3923]::dropInventoryItems->func_180175_a
+Rename method net/minecraft/world/World/removeTileEntity (Lnet/minecraft/util/math/BlockPos;)V[3973,3989]::removeTileEntity->func_175713_t
+Rename method net/minecraft/block/Block/breakBlock (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V[4003,4013]::breakBlock->func_180663_b
+Rename method net/minecraft/block/Block/hasComparatorInputOverride (Lnet/minecraft/block/state/IBlockState;)Z[4075,4101]::hasComparatorInputOverride->func_149740_M
+Rename method net/minecraft/block/Block/getComparatorInputOverride (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)I[4161,4187]::getComparatorInputOverride->func_180641_l
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[4266,4279]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/Container/calcRedstoneFromInventory (Lnet/minecraft/inventory/IInventory;)I[4356,4381]::calcRedstoneFromInventory->func_94526_b
+Rename method net/minecraft/block/Block/onBlockActivated (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z[4463,4479]::onBlockActivated->func_180639_a
+Rename method net/minecraft/block/Block/onBlockActivated (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z[4634,4650]::onBlockActivated->func_180639_a
+Rename method net/minecraft/util/math/Vec3i/getX ()I[4727,4731]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[4760,4764]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[4793,4797]::getZ->func_177952_p
+Rename method net/minecraft/util/NonNullList/withSize (ILjava/lang/Object;)Lnet/minecraft/util/NonNullList;[5127,5135]::withSize->func_191197_a
+Rename field net/minecraft/item/ItemStack/EMPTY[5154,5159]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/IInventory/getSizeInventory ()I[5198,5214]::getSizeInventory->func_70302_i_
+Rename method net/minecraft/inventory/IInventory/isEmpty ()Z[5268,5275]::isEmpty->func_191420_l
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[5350,5357]::isEmpty->func_190926_b
+Rename method net/minecraft/inventory/IInventory/isItemValidForSlot (ILnet/minecraft/item/ItemStack;)Z[5442,5460]::isItemValidForSlot->func_94041_b
+Rename method net/minecraft/inventory/IInventory/getStackInSlot (I)Lnet/minecraft/item/ItemStack;[5542,5556]::getStackInSlot->func_70301_a
+Rename method net/minecraft/world/IWorldNameable/getName ()Ljava/lang/String;[5633,5640]::getName->func_70005_c_
+Rename method net/minecraft/tileentity/TileEntity/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[5720,5731]::readFromNBT->func_145839_a
+Rename method net/minecraft/tileentity/TileEntity/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[5771,5782]::readFromNBT->func_145839_a
+Rename method net/minecraft/util/NonNullList/withSize (ILjava/lang/Object;)Lnet/minecraft/util/NonNullList;[5837,5845]::withSize->func_191197_a
+Rename method net/minecraft/inventory/IInventory/getSizeInventory ()I[5856,5872]::getSizeInventory->func_70302_i_
+Rename field net/minecraft/item/ItemStack/EMPTY[5883,5888]::EMPTY->field_190927_a
+Rename method net/minecraft/tileentity/TileEntityLockableLoot/checkLootAndRead (Lnet/minecraft/nbt/NBTTagCompound;)Z[5914,5930]::checkLootAndRead->func_184283_b
+Rename method net/minecraft/inventory/ItemStackHelper/loadAllItems (Lnet/minecraft/nbt/NBTTagCompound;Lnet/minecraft/util/NonNullList;)V[5960,5972]::loadAllItems->func_191283_b
+Rename method net/minecraft/tileentity/TileEntity/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[6043,6053]::writeToNBT->func_189515_b
+Rename method net/minecraft/tileentity/TileEntity/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[6094,6104]::writeToNBT->func_189515_b
+Rename method net/minecraft/tileentity/TileEntityLockableLoot/checkLootAndWrite (Lnet/minecraft/nbt/NBTTagCompound;)Z[6133,6150]::checkLootAndWrite->func_184282_c
+Rename method net/minecraft/inventory/ItemStackHelper/saveAllItems (Lnet/minecraft/nbt/NBTTagCompound;Lnet/minecraft/util/NonNullList;)Lnet/minecraft/nbt/NBTTagCompound;[6179,6191]::saveAllItems->func_191282_a
+Rename method net/minecraft/tileentity/TileEntity/getUpdatePacket ()Lnet/minecraft/network/play/server/SPacketUpdateTileEntity;[6292,6307]::getUpdatePacket->func_189518_D_
+Rename field net/minecraft/tileentity/TileEntity/pos[6355,6358]::pos->field_174879_c
+Rename method net/minecraft/tileentity/TileEntity/getUpdateTag ()Lnet/minecraft/nbt/NBTTagCompound;[6379,6391]::getUpdateTag->func_189517_E_
+Rename method net/minecraft/tileentity/TileEntity/getUpdateTag ()Lnet/minecraft/nbt/NBTTagCompound;[6443,6455]::getUpdateTag->func_189517_E_
+Rename method net/minecraft/tileentity/TileEntity/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[6478,6488]::writeToNBT->func_189515_b
+Rename method net/minecraft/tileentity/TileEntity/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[6623,6634]::readFromNBT->func_145839_a
+Rename method net/minecraft/network/play/server/SPacketUpdateTileEntity/getNbtCompound ()Lnet/minecraft/nbt/NBTTagCompound;[6641,6655]::getNbtCompound->func_148857_g
+Rename method net/minecraft/tileentity/TileEntity/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[6741,6752]::readFromNBT->func_145839_a
+Rename method net/minecraft/inventory/IInventory/getInventoryStackLimit ()I[6795,6817]::getInventoryStackLimit->func_70297_j_
+Rename method net/minecraft/world/IInteractionObject/getGuiID ()Ljava/lang/String;[6865,6873]::getGuiID->func_174875_k
+Rename method net/minecraft/world/IInteractionObject/createContainer (Lnet/minecraft/entity/player/InventoryPlayer;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/inventory/Container;[6963,6978]::createContainer->func_174876_a
+New Key: class net/daysantace/elysiancurrency/gui/GuiVastiMintGUI
+Rename method net/minecraft/tileentity/TileEntity/getWorld ()Lnet/minecraft/world/World;[7087,7095]::getWorld->func_145831_w
+Rename method net/minecraft/tileentity/TileEntity/getPos ()Lnet/minecraft/util/math/BlockPos;[7109,7115]::getPos->func_174877_v
+Rename method net/minecraft/util/math/Vec3i/getX ()I[7125,7129]::getX->func_177958_n
+Rename method net/minecraft/tileentity/TileEntity/getPos ()Lnet/minecraft/util/math/BlockPos;[7147,7153]::getPos->func_174877_v
+Rename method net/minecraft/util/math/Vec3i/getY ()I[7163,7167]::getY->func_177956_o
+Rename method net/minecraft/tileentity/TileEntity/getPos ()Lnet/minecraft/util/math/BlockPos;[7185,7191]::getPos->func_174877_v
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[7201,7205]::getZ->func_177952_p
+Rename method net/minecraft/tileentity/TileEntityLockableLoot/getItems ()Lnet/minecraft/util/NonNullList;[7285,7293]::getItems->func_190576_q
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.NonNullList
+Import: net.minecraft.util.EnumHand
+Import: net.minecraft.util.EnumFacing
+Import: net.minecraft.util.EnumBlockRenderType
+Import: net.minecraft.tileentity.TileEntityLockableLoot
+Import: net.minecraft.tileentity.TileEntity
+Import: net.minecraft.network.play.server.SPacketUpdateTileEntity
+Import: net.minecraft.network.NetworkManager
+Import: net.minecraft.nbt.NBTTagCompound
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.inventory.ItemStackHelper
+Import: net.minecraft.inventory.InventoryHelper
+Import: net.minecraft.inventory.Container
+Import: net.minecraft.entity.player.InventoryPlayer
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.ITileEntityProvider
+Import: net.minecraft.block.Block
+Import: net.daysantace.elysiancurrency.gui.GuiVastiMintGUI
+Import: net.daysantace.elysiancurrency.creativetab.TabElysianMoney
+Import: net.daysantace.elysiancurrency.ElysianCurrency
+Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
+End  Processing: net/daysantace/elysiancurrency/block/BlockVastiMint.java
+
 Start Processing: net/daysantace/elysiancurrency/creativetab/TabElysianMoney.java
 New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
 New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
@@ -183,6 +415,366 @@ Import: net.minecraft.creativetab.CreativeTabs
 Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundOne
 Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
 End  Processing: net/daysantace/elysiancurrency/creativetab/TabElysianMoney.java
+
+Start Processing: net/daysantace/elysiancurrency/gui/GuiNovaterraMintGUI.java
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+FOUND CONSTR method net/daysantace/elysiancurrency/gui/GuiNovaterraMintGUI/GuiNovaterraMintGUI (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V net/daysantace/elysiancurrency/gui/GuiNovaterraMintGUI
+FOUND CONSTR method net/daysantace/elysiancurrency/gui/GuiNovaterraMintGUI/GuiContainerMod/GuiContainerMod (Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V net/daysantace/elysiancurrency/gui/GuiNovaterraMintGUI/GuiContainerMod
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[2519,2532]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/Container/addSlotToContainer (Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;[2664,2682]::addSlotToContainer->func_75146_a
+Rename method net/minecraft/inventory/Container/addSlotToContainer (Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;[2751,2769]::addSlotToContainer->func_75146_a
+Rename method net/minecraft/inventory/Slot/isItemValid (Lnet/minecraft/item/ItemStack;)Z[2832,2843]::isItemValid->func_75214_a
+Rename method net/minecraft/inventory/Container/addSlotToContainer (Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;[2998,3016]::addSlotToContainer->func_75146_a
+Rename field net/minecraft/entity/player/EntityPlayer/inventory[3027,3036]::inventory->field_71071_by
+Rename method net/minecraft/inventory/Container/addSlotToContainer (Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;[3140,3158]::addSlotToContainer->func_75146_a
+Rename field net/minecraft/entity/player/EntityPlayer/inventory[3169,3178]::inventory->field_71071_by
+Rename method net/minecraft/inventory/Container/canInteractWith (Lnet/minecraft/entity/player/EntityPlayer;)Z[3323,3338]::canInteractWith->func_75145_c
+Rename method net/minecraft/inventory/IInventory/isUsableByPlayer (Lnet/minecraft/entity/player/EntityPlayer;)Z[3379,3395]::isUsableByPlayer->func_70300_a
+Rename method net/minecraft/inventory/Container/transferStackInSlot (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;[3441,3460]::transferStackInSlot->func_82846_b
+Rename field net/minecraft/item/ItemStack/EMPTY[3526,3531]::EMPTY->field_190927_a
+Rename field net/minecraft/inventory/Container/inventorySlots[3570,3584]::inventorySlots->field_75151_b
+Rename method net/minecraft/inventory/Slot/getHasStack ()Z[3625,3636]::getHasStack->func_75216_d
+Rename method net/minecraft/inventory/Slot/getStack ()Lnet/minecraft/item/ItemStack;[3676,3684]::getStack->func_75211_c
+Rename method net/minecraft/item/ItemStack/copy ()Lnet/minecraft/item/ItemStack;[3720,3724]::copy->func_77946_l
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[3774,3788]::mergeItemStack->func_75135_a
+Rename field net/minecraft/inventory/Container/inventorySlots[3807,3821]::inventorySlots->field_75151_b
+Rename field net/minecraft/item/ItemStack/EMPTY[3862,3867]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/Slot/onSlotChange (Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)V[3897,3909]::onSlotChange->func_75220_a
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[3956,3970]::mergeItemStack->func_75135_a
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[4042,4056]::mergeItemStack->func_75135_a
+Rename field net/minecraft/inventory/Container/inventorySlots[4080,4094]::inventorySlots->field_75151_b
+Rename field net/minecraft/item/ItemStack/EMPTY[4136,4141]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[4193,4207]::mergeItemStack->func_75135_a
+Rename field net/minecraft/item/ItemStack/EMPTY[4264,4269]::EMPTY->field_190927_a
+Rename field net/minecraft/item/ItemStack/EMPTY[4320,4325]::EMPTY->field_190927_a
+Rename method net/minecraft/item/ItemStack/getCount ()I[4363,4371]::getCount->func_190916_E
+Rename method net/minecraft/inventory/Slot/putStack (Lnet/minecraft/item/ItemStack;)V[4398,4406]::putStack->func_75215_d
+Rename field net/minecraft/item/ItemStack/EMPTY[4421,4426]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/Slot/onSlotChanged ()V[4463,4476]::onSlotChanged->func_75218_e
+Rename method net/minecraft/item/ItemStack/getCount ()I[4506,4514]::getCount->func_190916_E
+Rename method net/minecraft/item/ItemStack/getCount ()I[4535,4543]::getCount->func_190916_E
+Rename field net/minecraft/item/ItemStack/EMPTY[4577,4582]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/Slot/onTake (Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;[4610,4616]::onTake->func_190901_a
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[5039,5053]::mergeItemStack->func_75135_a
+Rename method net/minecraft/item/ItemStack/isStackable ()Z[5248,5259]::isStackable->func_77985_e
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[5285,5292]::isEmpty->func_190926_b
+Rename field net/minecraft/inventory/Container/inventorySlots[5466,5480]::inventorySlots->field_75151_b
+Rename method net/minecraft/inventory/Slot/getStack ()Lnet/minecraft/item/ItemStack;[5521,5529]::getStack->func_75211_c
+Rename method net/minecraft/inventory/Slot/isItemValid (Lnet/minecraft/item/ItemStack;)Z[5552,5563]::isItemValid->func_75214_a
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[5590,5597]::isEmpty->func_190926_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[5619,5626]::getItem->func_77973_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[5643,5650]::getItem->func_77973_b
+Rename method net/minecraft/item/ItemStack/getHasSubtypes ()Z[5677,5691]::getHasSubtypes->func_77981_g
+Rename method net/minecraft/item/ItemStack/getMetadata ()I[5701,5712]::getMetadata->func_77960_j
+Rename method net/minecraft/item/ItemStack/getMetadata ()I[5729,5740]::getMetadata->func_77960_j
+Rename method net/minecraft/item/ItemStack/areItemStackTagsEqual (Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z[5766,5787]::areItemStackTagsEqual->func_77970_a
+Rename method net/minecraft/item/ItemStack/getCount ()I[5825,5833]::getCount->func_190916_E
+Rename method net/minecraft/item/ItemStack/getCount ()I[5849,5857]::getCount->func_190916_E
+Rename method net/minecraft/inventory/Slot/getSlotStackLimit ()I[5901,5918]::getSlotStackLimit->func_75219_a
+Rename method net/minecraft/item/ItemStack/getMaxStackSize ()I[5923,5938]::getMaxStackSize->func_77976_d
+Rename method net/minecraft/item/ItemStack/setCount (I)V[5981,5989]::setCount->func_190920_e
+Rename method net/minecraft/item/ItemStack/setCount (I)V[6017,6025]::setCount->func_190920_e
+Rename method net/minecraft/inventory/Slot/putStack (Lnet/minecraft/item/ItemStack;)V[6048,6056]::putStack->func_75215_d
+Rename method net/minecraft/item/ItemStack/getCount ()I[6122,6130]::getCount->func_190916_E
+Rename method net/minecraft/item/ItemStack/shrink (I)V[6165,6171]::shrink->func_190918_g
+Rename method net/minecraft/item/ItemStack/getCount ()I[6199,6207]::getCount->func_190916_E
+Rename method net/minecraft/item/ItemStack/setCount (I)V[6235,6243]::setCount->func_190920_e
+Rename method net/minecraft/inventory/Slot/putStack (Lnet/minecraft/item/ItemStack;)V[6272,6280]::putStack->func_75215_d
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[6440,6447]::isEmpty->func_190926_b
+Rename field net/minecraft/inventory/Container/inventorySlots[6738,6752]::inventorySlots->field_75151_b
+Rename method net/minecraft/inventory/Slot/getStack ()Lnet/minecraft/item/ItemStack;[6795,6803]::getStack->func_75211_c
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[6832,6839]::isEmpty->func_190926_b
+Rename method net/minecraft/inventory/Slot/isItemValid (Lnet/minecraft/item/ItemStack;)Z[6857,6868]::isItemValid->func_75214_a
+Rename method net/minecraft/item/ItemStack/getCount ()I[6897,6905]::getCount->func_190916_E
+Rename method net/minecraft/inventory/Slot/getSlotStackLimit ()I[6921,6938]::getSlotStackLimit->func_75219_a
+Rename method net/minecraft/inventory/Slot/putStack (Lnet/minecraft/item/ItemStack;)V[6953,6961]::putStack->func_75215_d
+Rename method net/minecraft/item/ItemStack/splitStack (I)Lnet/minecraft/item/ItemStack;[6972,6982]::splitStack->func_77979_a
+Rename method net/minecraft/inventory/Slot/getSlotStackLimit ()I[6991,7008]::getSlotStackLimit->func_75219_a
+Rename method net/minecraft/inventory/Slot/putStack (Lnet/minecraft/item/ItemStack;)V[7039,7047]::putStack->func_75215_d
+Rename method net/minecraft/item/ItemStack/splitStack (I)Lnet/minecraft/item/ItemStack;[7058,7068]::splitStack->func_77979_a
+Rename method net/minecraft/item/ItemStack/getCount ()I[7077,7085]::getCount->func_190916_E
+Rename method net/minecraft/inventory/Slot/onSlotChanged ()V[7118,7131]::onSlotChanged->func_75218_e
+Rename method net/minecraft/inventory/Container/onContainerClosed (Lnet/minecraft/entity/player/EntityPlayer;)V[7318,7335]::onContainerClosed->func_75134_a
+Rename method net/minecraft/inventory/Container/onContainerClosed (Lnet/minecraft/entity/player/EntityPlayer;)V[7366,7383]::onContainerClosed->func_75134_a
+Rename method net/minecraft/inventory/Container/clearContainer (Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/inventory/IInventory;)V[7488,7502]::clearContainer->func_193327_a
+Rename field net/minecraft/entity/Entity/world[7521,7526]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[7664,7672]::isRemote->field_72995_K
+FOUND CONSTR method net/daysantace/elysiancurrency/gui/GuiNovaterraMintGUI/GuiWindow/GuiWindow (Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V net/daysantace/elysiancurrency/gui/GuiNovaterraMintGUI/GuiWindow
+Rename field net/minecraft/client/gui/inventory/GuiContainer/xSize[8269,8274]::xSize->field_146999_f
+Rename field net/minecraft/client/gui/inventory/GuiContainer/ySize[8300,8305]::ySize->field_147000_g
+Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[8477,8487]::drawScreen->func_73863_a
+Rename method net/minecraft/client/gui/GuiScreen/drawDefaultBackground ()V[8545,8566]::drawDefaultBackground->func_146276_q_
+Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[8573,8583]::drawScreen->func_73863_a
+Rename method net/minecraft/client/gui/inventory/GuiContainer/renderHoveredToolTip (II)V[8626,8646]::renderHoveredToolTip->func_191948_b
+Rename method net/minecraft/client/gui/inventory/GuiContainer/drawGuiContainerBackgroundLayer (FII)V[8695,8726]::drawGuiContainerBackgroundLayer->func_146976_a
+Rename field net/minecraft/client/gui/GuiScreen/mc[8796,8798]::mc->field_146297_k
+Rename field net/minecraft/client/Minecraft/renderEngine[8811,8823]::renderEngine->field_71446_o
+Rename method net/minecraft/client/renderer/texture/TextureManager/bindTexture (Lnet/minecraft/util/ResourceLocation;)V[8825,8836]::bindTexture->func_110577_a
+Rename field net/minecraft/client/gui/GuiScreen/width[8867,8872]::width->field_146294_l
+Rename field net/minecraft/client/gui/inventory/GuiContainer/xSize[8889,8894]::xSize->field_146999_f
+Rename field net/minecraft/client/gui/GuiScreen/height[8928,8934]::height->field_146295_m
+Rename field net/minecraft/client/gui/inventory/GuiContainer/ySize[8950,8955]::ySize->field_147000_g
+Rename method net/minecraft/client/gui/Gui/drawTexturedModalRect (IIIIII)V[8980,9001]::drawTexturedModalRect->func_73729_b
+Rename field net/minecraft/client/gui/inventory/GuiContainer/xSize[9010,9015]::xSize->field_146999_f
+Rename field net/minecraft/client/gui/inventory/GuiContainer/ySize[9031,9036]::ySize->field_147000_g
+Rename field net/minecraft/client/gui/Gui/zLevel[9052,9058]::zLevel->field_73735_i
+Rename method net/minecraft/client/gui/GuiScreen/updateScreen ()V[9111,9123]::updateScreen->func_73876_c
+Rename method net/minecraft/client/gui/GuiScreen/updateScreen ()V[9138,9150]::updateScreen->func_73876_c
+Rename method net/minecraft/client/gui/GuiTextField/updateCursorCounter ()V[9169,9188]::updateCursorCounter->func_146178_a
+Rename method net/minecraft/client/gui/GuiScreen/mouseClicked (III)V[9224,9236]::mouseClicked->func_73864_a
+Rename method net/minecraft/client/gui/GuiTextField/mouseClicked (III)Z[9314,9326]::mouseClicked->func_146192_a
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiLeft[9337,9344]::guiLeft->field_147003_i
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiTop[9362,9368]::guiTop->field_147009_r
+Rename method net/minecraft/client/gui/GuiScreen/mouseClicked (III)V[9402,9414]::mouseClicked->func_73864_a
+Rename method net/minecraft/client/gui/GuiScreen/keyTyped (CI)V[9483,9491]::keyTyped->func_73869_a
+Rename method net/minecraft/client/gui/GuiTextField/textboxKeyTyped (CI)Z[9561,9576]::textboxKeyTyped->func_146201_a
+Rename method net/minecraft/client/gui/GuiTextField/isFocused ()Z[9615,9624]::isFocused->func_146206_l
+Rename method net/minecraft/client/gui/GuiScreen/keyTyped (CI)V[9655,9663]::keyTyped->func_73869_a
+Rename method net/minecraft/client/gui/inventory/GuiContainer/drawGuiContainerForegroundLayer (II)V[9727,9758]::drawGuiContainerForegroundLayer->func_146979_b
+Rename method net/minecraft/client/gui/GuiTextField/drawTextBox ()V[9778,9789]::drawTextBox->func_146194_f
+Rename method net/minecraft/client/gui/GuiScreen/onGuiClosed ()V[9830,9841]::onGuiClosed->func_146281_b
+Rename method net/minecraft/client/gui/GuiScreen/onGuiClosed ()V[9858,9869]::onGuiClosed->func_146281_b
+Rename method net/minecraft/client/gui/GuiScreen/initGui ()V[9950,9957]::initGui->func_73866_w_
+Rename method net/minecraft/client/gui/GuiScreen/initGui ()V[9978,9985]::initGui->func_73866_w_
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiLeft[10004,10011]::guiLeft->field_147003_i
+Rename field net/minecraft/client/gui/GuiScreen/width[10027,10032]::width->field_146294_l
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiTop[10063,10069]::guiTop->field_147009_r
+Rename field net/minecraft/client/gui/GuiScreen/height[10086,10092]::height->field_146295_m
+Rename field net/minecraft/client/gui/GuiScreen/buttonList[10161,10171]::buttonList->field_146292_n
+Rename field net/minecraft/client/gui/GuiScreen/fontRenderer[10227,10239]::fontRenderer->field_146289_q
+Rename method net/minecraft/client/gui/GuiTextField/setMaxStringLength (I)V[10325,10343]::setMaxStringLength->func_146203_f
+Rename method net/minecraft/client/gui/GuiTextField/setText (Ljava/lang/String;)V[10362,10369]::setText->func_146180_a
+Rename field net/minecraft/client/gui/GuiScreen/buttonList[10408,10418]::buttonList->field_146292_n
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiLeft[10449,10456]::guiLeft->field_147003_i
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiTop[10475,10481]::guiTop->field_147009_r
+Rename method net/minecraft/client/gui/GuiScreen/actionPerformed (Lnet/minecraft/client/gui/GuiButton;)V[10552,10567]::actionPerformed->func_146284_a
+Rename field net/minecraft/client/gui/GuiButton/id[10669,10671]::id->field_146127_k
+Rename field net/minecraft/client/gui/GuiButton/id[10734,10736]::id->field_146127_k
+Rename method net/minecraft/client/gui/GuiScreen/doesGuiPauseGame ()Z[10798,10814]::doesGuiPauseGame->func_73868_f
+Rename field net/minecraft/network/NetHandlerPlayServer/player[11117,11123]::player->field_147369_b
+Rename method net/minecraft/entity/player/EntityPlayerMP/getServerWorld ()Lnet/minecraft/world/WorldServer;[11144,11158]::getServerWorld->func_71121_q
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[11159,11175]::addScheduledTask->func_152344_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[11646,11652]::player->field_147369_b
+Rename method net/minecraft/entity/player/EntityPlayerMP/getServerWorld ()Lnet/minecraft/world/WorldServer;[11673,11687]::getServerWorld->func_71121_q
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[11688,11704]::addScheduledTask->func_152344_a
+FOUND CONSTR method net/daysantace/elysiancurrency/gui/GuiNovaterraMintGUI/GUIButtonPressedMessage/GUIButtonPressedMessage ()V net/daysantace/elysiancurrency/gui/GuiNovaterraMintGUI/GUIButtonPressedMessage
+FOUND CONSTR method net/daysantace/elysiancurrency/gui/GuiNovaterraMintGUI/GUIButtonPressedMessage/GUIButtonPressedMessage (IIII)V net/daysantace/elysiancurrency/gui/GuiNovaterraMintGUI/GUIButtonPressedMessage
+FOUND CONSTR method net/daysantace/elysiancurrency/gui/GuiNovaterraMintGUI/GUISlotChangedMessage/GUISlotChangedMessage ()V net/daysantace/elysiancurrency/gui/GuiNovaterraMintGUI/GUISlotChangedMessage
+FOUND CONSTR method net/daysantace/elysiancurrency/gui/GuiNovaterraMintGUI/GUISlotChangedMessage/GUISlotChangedMessage (IIIIII)V net/daysantace/elysiancurrency/gui/GuiNovaterraMintGUI/GUISlotChangedMessage
+Rename field net/minecraft/entity/Entity/world[13583,13588]::world->field_70170_p
+Rename method net/minecraft/world/World/isBlockLoaded (Lnet/minecraft/util/math/BlockPos;)Z[13673,13686]::isBlockLoaded->func_175667_e
+Rename field net/minecraft/entity/Entity/world[14248,14253]::world->field_70170_p
+Rename method net/minecraft/world/World/isBlockLoaded (Lnet/minecraft/util/math/BlockPos;)Z[14338,14351]::isBlockLoaded->func_175667_e
+Import: org.lwjgl.opengl.GL11
+Import: org.lwjgl.input.Keyboard
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.tileentity.TileEntity
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.inventory.Slot
+Import: net.minecraft.inventory.InventoryBasic
+Import: net.minecraft.inventory.IInventory
+Import: net.minecraft.inventory.Container
+Import: net.minecraft.entity.player.EntityPlayerMP
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.gui.inventory.GuiContainer
+Import: net.minecraft.client.gui.GuiTextField
+Import: net.minecraft.client.gui.GuiButton
+Import: net.daysantace.elysiancurrency.procedure.ProcedureNovaterraCraft
+Import: net.daysantace.elysiancurrency.ElysianCurrency
+Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
+Import: java.util.function.Supplier
+Import: java.util.Map
+Import: java.util.HashMap
+Import: java.io.IOException
+End  Processing: net/daysantace/elysiancurrency/gui/GuiNovaterraMintGUI.java
+
+Start Processing: net/daysantace/elysiancurrency/gui/GuiVastiMintGUI.java
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+FOUND CONSTR method net/daysantace/elysiancurrency/gui/GuiVastiMintGUI/GuiVastiMintGUI (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V net/daysantace/elysiancurrency/gui/GuiVastiMintGUI
+FOUND CONSTR method net/daysantace/elysiancurrency/gui/GuiVastiMintGUI/GuiContainerMod/GuiContainerMod (Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V net/daysantace/elysiancurrency/gui/GuiVastiMintGUI/GuiContainerMod
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[2511,2524]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/Container/addSlotToContainer (Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;[2656,2674]::addSlotToContainer->func_75146_a
+Rename method net/minecraft/inventory/Container/addSlotToContainer (Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;[2743,2761]::addSlotToContainer->func_75146_a
+Rename method net/minecraft/inventory/Slot/isItemValid (Lnet/minecraft/item/ItemStack;)Z[2824,2835]::isItemValid->func_75214_a
+Rename method net/minecraft/inventory/Container/addSlotToContainer (Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;[2990,3008]::addSlotToContainer->func_75146_a
+Rename field net/minecraft/entity/player/EntityPlayer/inventory[3019,3028]::inventory->field_71071_by
+Rename method net/minecraft/inventory/Container/addSlotToContainer (Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;[3132,3150]::addSlotToContainer->func_75146_a
+Rename field net/minecraft/entity/player/EntityPlayer/inventory[3161,3170]::inventory->field_71071_by
+Rename method net/minecraft/inventory/Container/canInteractWith (Lnet/minecraft/entity/player/EntityPlayer;)Z[3315,3330]::canInteractWith->func_75145_c
+Rename method net/minecraft/inventory/IInventory/isUsableByPlayer (Lnet/minecraft/entity/player/EntityPlayer;)Z[3371,3387]::isUsableByPlayer->func_70300_a
+Rename method net/minecraft/inventory/Container/transferStackInSlot (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;[3433,3452]::transferStackInSlot->func_82846_b
+Rename field net/minecraft/item/ItemStack/EMPTY[3518,3523]::EMPTY->field_190927_a
+Rename field net/minecraft/inventory/Container/inventorySlots[3562,3576]::inventorySlots->field_75151_b
+Rename method net/minecraft/inventory/Slot/getHasStack ()Z[3617,3628]::getHasStack->func_75216_d
+Rename method net/minecraft/inventory/Slot/getStack ()Lnet/minecraft/item/ItemStack;[3668,3676]::getStack->func_75211_c
+Rename method net/minecraft/item/ItemStack/copy ()Lnet/minecraft/item/ItemStack;[3712,3716]::copy->func_77946_l
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[3766,3780]::mergeItemStack->func_75135_a
+Rename field net/minecraft/inventory/Container/inventorySlots[3799,3813]::inventorySlots->field_75151_b
+Rename field net/minecraft/item/ItemStack/EMPTY[3854,3859]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/Slot/onSlotChange (Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)V[3889,3901]::onSlotChange->func_75220_a
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[3948,3962]::mergeItemStack->func_75135_a
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[4034,4048]::mergeItemStack->func_75135_a
+Rename field net/minecraft/inventory/Container/inventorySlots[4072,4086]::inventorySlots->field_75151_b
+Rename field net/minecraft/item/ItemStack/EMPTY[4128,4133]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[4185,4199]::mergeItemStack->func_75135_a
+Rename field net/minecraft/item/ItemStack/EMPTY[4256,4261]::EMPTY->field_190927_a
+Rename field net/minecraft/item/ItemStack/EMPTY[4312,4317]::EMPTY->field_190927_a
+Rename method net/minecraft/item/ItemStack/getCount ()I[4355,4363]::getCount->func_190916_E
+Rename method net/minecraft/inventory/Slot/putStack (Lnet/minecraft/item/ItemStack;)V[4390,4398]::putStack->func_75215_d
+Rename field net/minecraft/item/ItemStack/EMPTY[4413,4418]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/Slot/onSlotChanged ()V[4455,4468]::onSlotChanged->func_75218_e
+Rename method net/minecraft/item/ItemStack/getCount ()I[4498,4506]::getCount->func_190916_E
+Rename method net/minecraft/item/ItemStack/getCount ()I[4527,4535]::getCount->func_190916_E
+Rename field net/minecraft/item/ItemStack/EMPTY[4569,4574]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/Slot/onTake (Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;[4602,4608]::onTake->func_190901_a
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[5031,5045]::mergeItemStack->func_75135_a
+Rename method net/minecraft/item/ItemStack/isStackable ()Z[5240,5251]::isStackable->func_77985_e
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[5277,5284]::isEmpty->func_190926_b
+Rename field net/minecraft/inventory/Container/inventorySlots[5458,5472]::inventorySlots->field_75151_b
+Rename method net/minecraft/inventory/Slot/getStack ()Lnet/minecraft/item/ItemStack;[5513,5521]::getStack->func_75211_c
+Rename method net/minecraft/inventory/Slot/isItemValid (Lnet/minecraft/item/ItemStack;)Z[5544,5555]::isItemValid->func_75214_a
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[5582,5589]::isEmpty->func_190926_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[5611,5618]::getItem->func_77973_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[5635,5642]::getItem->func_77973_b
+Rename method net/minecraft/item/ItemStack/getHasSubtypes ()Z[5669,5683]::getHasSubtypes->func_77981_g
+Rename method net/minecraft/item/ItemStack/getMetadata ()I[5693,5704]::getMetadata->func_77960_j
+Rename method net/minecraft/item/ItemStack/getMetadata ()I[5721,5732]::getMetadata->func_77960_j
+Rename method net/minecraft/item/ItemStack/areItemStackTagsEqual (Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z[5758,5779]::areItemStackTagsEqual->func_77970_a
+Rename method net/minecraft/item/ItemStack/getCount ()I[5817,5825]::getCount->func_190916_E
+Rename method net/minecraft/item/ItemStack/getCount ()I[5841,5849]::getCount->func_190916_E
+Rename method net/minecraft/inventory/Slot/getSlotStackLimit ()I[5893,5910]::getSlotStackLimit->func_75219_a
+Rename method net/minecraft/item/ItemStack/getMaxStackSize ()I[5915,5930]::getMaxStackSize->func_77976_d
+Rename method net/minecraft/item/ItemStack/setCount (I)V[5973,5981]::setCount->func_190920_e
+Rename method net/minecraft/item/ItemStack/setCount (I)V[6009,6017]::setCount->func_190920_e
+Rename method net/minecraft/inventory/Slot/putStack (Lnet/minecraft/item/ItemStack;)V[6040,6048]::putStack->func_75215_d
+Rename method net/minecraft/item/ItemStack/getCount ()I[6114,6122]::getCount->func_190916_E
+Rename method net/minecraft/item/ItemStack/shrink (I)V[6157,6163]::shrink->func_190918_g
+Rename method net/minecraft/item/ItemStack/getCount ()I[6191,6199]::getCount->func_190916_E
+Rename method net/minecraft/item/ItemStack/setCount (I)V[6227,6235]::setCount->func_190920_e
+Rename method net/minecraft/inventory/Slot/putStack (Lnet/minecraft/item/ItemStack;)V[6264,6272]::putStack->func_75215_d
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[6432,6439]::isEmpty->func_190926_b
+Rename field net/minecraft/inventory/Container/inventorySlots[6730,6744]::inventorySlots->field_75151_b
+Rename method net/minecraft/inventory/Slot/getStack ()Lnet/minecraft/item/ItemStack;[6787,6795]::getStack->func_75211_c
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[6824,6831]::isEmpty->func_190926_b
+Rename method net/minecraft/inventory/Slot/isItemValid (Lnet/minecraft/item/ItemStack;)Z[6849,6860]::isItemValid->func_75214_a
+Rename method net/minecraft/item/ItemStack/getCount ()I[6889,6897]::getCount->func_190916_E
+Rename method net/minecraft/inventory/Slot/getSlotStackLimit ()I[6913,6930]::getSlotStackLimit->func_75219_a
+Rename method net/minecraft/inventory/Slot/putStack (Lnet/minecraft/item/ItemStack;)V[6945,6953]::putStack->func_75215_d
+Rename method net/minecraft/item/ItemStack/splitStack (I)Lnet/minecraft/item/ItemStack;[6964,6974]::splitStack->func_77979_a
+Rename method net/minecraft/inventory/Slot/getSlotStackLimit ()I[6983,7000]::getSlotStackLimit->func_75219_a
+Rename method net/minecraft/inventory/Slot/putStack (Lnet/minecraft/item/ItemStack;)V[7031,7039]::putStack->func_75215_d
+Rename method net/minecraft/item/ItemStack/splitStack (I)Lnet/minecraft/item/ItemStack;[7050,7060]::splitStack->func_77979_a
+Rename method net/minecraft/item/ItemStack/getCount ()I[7069,7077]::getCount->func_190916_E
+Rename method net/minecraft/inventory/Slot/onSlotChanged ()V[7110,7123]::onSlotChanged->func_75218_e
+Rename method net/minecraft/inventory/Container/onContainerClosed (Lnet/minecraft/entity/player/EntityPlayer;)V[7310,7327]::onContainerClosed->func_75134_a
+Rename method net/minecraft/inventory/Container/onContainerClosed (Lnet/minecraft/entity/player/EntityPlayer;)V[7358,7375]::onContainerClosed->func_75134_a
+Rename method net/minecraft/inventory/Container/clearContainer (Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/inventory/IInventory;)V[7480,7494]::clearContainer->func_193327_a
+Rename field net/minecraft/entity/Entity/world[7513,7518]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[7656,7664]::isRemote->field_72995_K
+FOUND CONSTR method net/daysantace/elysiancurrency/gui/GuiVastiMintGUI/GuiWindow/GuiWindow (Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V net/daysantace/elysiancurrency/gui/GuiVastiMintGUI/GuiWindow
+Rename field net/minecraft/client/gui/inventory/GuiContainer/xSize[8261,8266]::xSize->field_146999_f
+Rename field net/minecraft/client/gui/inventory/GuiContainer/ySize[8292,8297]::ySize->field_147000_g
+Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[8465,8475]::drawScreen->func_73863_a
+Rename method net/minecraft/client/gui/GuiScreen/drawDefaultBackground ()V[8533,8554]::drawDefaultBackground->func_146276_q_
+Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[8561,8571]::drawScreen->func_73863_a
+Rename method net/minecraft/client/gui/inventory/GuiContainer/renderHoveredToolTip (II)V[8614,8634]::renderHoveredToolTip->func_191948_b
+Rename method net/minecraft/client/gui/inventory/GuiContainer/drawGuiContainerBackgroundLayer (FII)V[8683,8714]::drawGuiContainerBackgroundLayer->func_146976_a
+Rename field net/minecraft/client/gui/GuiScreen/mc[8784,8786]::mc->field_146297_k
+Rename field net/minecraft/client/Minecraft/renderEngine[8799,8811]::renderEngine->field_71446_o
+Rename method net/minecraft/client/renderer/texture/TextureManager/bindTexture (Lnet/minecraft/util/ResourceLocation;)V[8813,8824]::bindTexture->func_110577_a
+Rename field net/minecraft/client/gui/GuiScreen/width[8855,8860]::width->field_146294_l
+Rename field net/minecraft/client/gui/inventory/GuiContainer/xSize[8877,8882]::xSize->field_146999_f
+Rename field net/minecraft/client/gui/GuiScreen/height[8916,8922]::height->field_146295_m
+Rename field net/minecraft/client/gui/inventory/GuiContainer/ySize[8938,8943]::ySize->field_147000_g
+Rename method net/minecraft/client/gui/Gui/drawTexturedModalRect (IIIIII)V[8968,8989]::drawTexturedModalRect->func_73729_b
+Rename field net/minecraft/client/gui/inventory/GuiContainer/xSize[8998,9003]::xSize->field_146999_f
+Rename field net/minecraft/client/gui/inventory/GuiContainer/ySize[9019,9024]::ySize->field_147000_g
+Rename field net/minecraft/client/gui/Gui/zLevel[9040,9046]::zLevel->field_73735_i
+Rename method net/minecraft/client/gui/GuiScreen/updateScreen ()V[9099,9111]::updateScreen->func_73876_c
+Rename method net/minecraft/client/gui/GuiScreen/updateScreen ()V[9126,9138]::updateScreen->func_73876_c
+Rename method net/minecraft/client/gui/GuiTextField/updateCursorCounter ()V[9157,9176]::updateCursorCounter->func_146178_a
+Rename method net/minecraft/client/gui/GuiScreen/mouseClicked (III)V[9212,9224]::mouseClicked->func_73864_a
+Rename method net/minecraft/client/gui/GuiTextField/mouseClicked (III)Z[9302,9314]::mouseClicked->func_146192_a
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiLeft[9325,9332]::guiLeft->field_147003_i
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiTop[9350,9356]::guiTop->field_147009_r
+Rename method net/minecraft/client/gui/GuiScreen/mouseClicked (III)V[9390,9402]::mouseClicked->func_73864_a
+Rename method net/minecraft/client/gui/GuiScreen/keyTyped (CI)V[9471,9479]::keyTyped->func_73869_a
+Rename method net/minecraft/client/gui/GuiTextField/textboxKeyTyped (CI)Z[9549,9564]::textboxKeyTyped->func_146201_a
+Rename method net/minecraft/client/gui/GuiTextField/isFocused ()Z[9603,9612]::isFocused->func_146206_l
+Rename method net/minecraft/client/gui/GuiScreen/keyTyped (CI)V[9643,9651]::keyTyped->func_73869_a
+Rename method net/minecraft/client/gui/inventory/GuiContainer/drawGuiContainerForegroundLayer (II)V[9715,9746]::drawGuiContainerForegroundLayer->func_146979_b
+Rename method net/minecraft/client/gui/GuiTextField/drawTextBox ()V[9766,9777]::drawTextBox->func_146194_f
+Rename method net/minecraft/client/gui/GuiScreen/onGuiClosed ()V[9818,9829]::onGuiClosed->func_146281_b
+Rename method net/minecraft/client/gui/GuiScreen/onGuiClosed ()V[9846,9857]::onGuiClosed->func_146281_b
+Rename method net/minecraft/client/gui/GuiScreen/initGui ()V[9938,9945]::initGui->func_73866_w_
+Rename method net/minecraft/client/gui/GuiScreen/initGui ()V[9966,9973]::initGui->func_73866_w_
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiLeft[9992,9999]::guiLeft->field_147003_i
+Rename field net/minecraft/client/gui/GuiScreen/width[10015,10020]::width->field_146294_l
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiTop[10051,10057]::guiTop->field_147009_r
+Rename field net/minecraft/client/gui/GuiScreen/height[10074,10080]::height->field_146295_m
+Rename field net/minecraft/client/gui/GuiScreen/buttonList[10149,10159]::buttonList->field_146292_n
+Rename field net/minecraft/client/gui/GuiScreen/fontRenderer[10215,10227]::fontRenderer->field_146289_q
+Rename method net/minecraft/client/gui/GuiTextField/setMaxStringLength (I)V[10313,10331]::setMaxStringLength->func_146203_f
+Rename method net/minecraft/client/gui/GuiTextField/setText (Ljava/lang/String;)V[10350,10357]::setText->func_146180_a
+Rename field net/minecraft/client/gui/GuiScreen/buttonList[10396,10406]::buttonList->field_146292_n
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiLeft[10437,10444]::guiLeft->field_147003_i
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiTop[10463,10469]::guiTop->field_147009_r
+Rename method net/minecraft/client/gui/GuiScreen/actionPerformed (Lnet/minecraft/client/gui/GuiButton;)V[10540,10555]::actionPerformed->func_146284_a
+Rename field net/minecraft/client/gui/GuiButton/id[10657,10659]::id->field_146127_k
+Rename field net/minecraft/client/gui/GuiButton/id[10722,10724]::id->field_146127_k
+Rename method net/minecraft/client/gui/GuiScreen/doesGuiPauseGame ()Z[10786,10802]::doesGuiPauseGame->func_73868_f
+Rename field net/minecraft/network/NetHandlerPlayServer/player[11105,11111]::player->field_147369_b
+Rename method net/minecraft/entity/player/EntityPlayerMP/getServerWorld ()Lnet/minecraft/world/WorldServer;[11132,11146]::getServerWorld->func_71121_q
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[11147,11163]::addScheduledTask->func_152344_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[11634,11640]::player->field_147369_b
+Rename method net/minecraft/entity/player/EntityPlayerMP/getServerWorld ()Lnet/minecraft/world/WorldServer;[11661,11675]::getServerWorld->func_71121_q
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[11676,11692]::addScheduledTask->func_152344_a
+FOUND CONSTR method net/daysantace/elysiancurrency/gui/GuiVastiMintGUI/GUIButtonPressedMessage/GUIButtonPressedMessage ()V net/daysantace/elysiancurrency/gui/GuiVastiMintGUI/GUIButtonPressedMessage
+FOUND CONSTR method net/daysantace/elysiancurrency/gui/GuiVastiMintGUI/GUIButtonPressedMessage/GUIButtonPressedMessage (IIII)V net/daysantace/elysiancurrency/gui/GuiVastiMintGUI/GUIButtonPressedMessage
+FOUND CONSTR method net/daysantace/elysiancurrency/gui/GuiVastiMintGUI/GUISlotChangedMessage/GUISlotChangedMessage ()V net/daysantace/elysiancurrency/gui/GuiVastiMintGUI/GUISlotChangedMessage
+FOUND CONSTR method net/daysantace/elysiancurrency/gui/GuiVastiMintGUI/GUISlotChangedMessage/GUISlotChangedMessage (IIIIII)V net/daysantace/elysiancurrency/gui/GuiVastiMintGUI/GUISlotChangedMessage
+Rename field net/minecraft/entity/Entity/world[13571,13576]::world->field_70170_p
+Rename method net/minecraft/world/World/isBlockLoaded (Lnet/minecraft/util/math/BlockPos;)Z[13661,13674]::isBlockLoaded->func_175667_e
+Rename field net/minecraft/entity/Entity/world[14236,14241]::world->field_70170_p
+Rename method net/minecraft/world/World/isBlockLoaded (Lnet/minecraft/util/math/BlockPos;)Z[14326,14339]::isBlockLoaded->func_175667_e
+Import: org.lwjgl.opengl.GL11
+Import: org.lwjgl.input.Keyboard
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.tileentity.TileEntity
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.inventory.Slot
+Import: net.minecraft.inventory.InventoryBasic
+Import: net.minecraft.inventory.IInventory
+Import: net.minecraft.inventory.Container
+Import: net.minecraft.entity.player.EntityPlayerMP
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.gui.inventory.GuiContainer
+Import: net.minecraft.client.gui.GuiTextField
+Import: net.minecraft.client.gui.GuiButton
+Import: net.daysantace.elysiancurrency.procedure.ProcedureNovaterraCraft
+Import: net.daysantace.elysiancurrency.ElysianCurrency
+Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
+Import: java.util.function.Supplier
+Import: java.util.Map
+Import: java.util.HashMap
+Import: java.io.IOException
+End  Processing: net/daysantace/elysiancurrency/gui/GuiVastiMintGUI.java
 
 Start Processing: net/daysantace/elysiancurrency/item/ItemNovaterraPoundFifty.java
 New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
@@ -521,4 +1113,198 @@ Import: net.minecraft.block.state.IBlockState
 Import: net.daysantace.elysiancurrency.creativetab.TabElysianMoney
 Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
 End  Processing: net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java
+
+Start Processing: net/daysantace/elysiancurrency/procedure/ProcedureNovaterraCraft.java
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+FOUND CONSTR method net/daysantace/elysiancurrency/procedure/ProcedureNovaterraCraft/ProcedureNovaterraCraft (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V net/daysantace/elysiancurrency/procedure/ProcedureNovaterraCraft
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[2543,2556]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/getStackInSlot (I)Lnet/minecraft/item/ItemStack;[2655,2669]::getStackInSlot->func_70301_a
+Rename field net/minecraft/item/ItemStack/EMPTY[2698,2703]::EMPTY->field_190927_a
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2791,2798]::getItem->func_77973_b
+Rename field net/minecraft/init/Items/PAPER[2829,2834]::PAPER->field_151121_aF
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2857,2864]::getItem->func_77973_b
+Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[3067,3074]::getText->func_146179_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[3186,3199]::getTileEntity->func_175625_s
+Rename method net/minecraft/item/ItemStack/setCount (I)V[3411,3419]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[3467,3491]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[3554,3567]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[3697,3710]::decrStackSize->func_70298_a
+Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[3949,3956]::getText->func_146179_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[4074,4087]::getTileEntity->func_175625_s
+Rename method net/minecraft/item/ItemStack/setCount (I)V[4302,4310]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[4359,4383]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[4450,4463]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[4595,4608]::decrStackSize->func_70298_a
+Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[4854,4861]::getText->func_146179_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[4985,4998]::getTileEntity->func_175625_s
+Rename method net/minecraft/item/ItemStack/setCount (I)V[5217,5225]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[5275,5299]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[5370,5383]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[5517,5530]::decrStackSize->func_70298_a
+Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[5783,5790]::getText->func_146179_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[5921,5934]::getTileEntity->func_175625_s
+Rename method net/minecraft/item/ItemStack/setCount (I)V[6155,6163]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[6214,6238]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[6313,6326]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[6462,6475]::decrStackSize->func_70298_a
+Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[6735,6742]::getText->func_146179_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[6879,6892]::getTileEntity->func_175625_s
+Rename method net/minecraft/item/ItemStack/setCount (I)V[7119,7127]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[7179,7203]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[7282,7295]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[7433,7446]::decrStackSize->func_70298_a
+Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[7713,7720]::getText->func_146179_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[7863,7876]::getTileEntity->func_175625_s
+Rename method net/minecraft/item/ItemStack/setCount (I)V[8105,8113]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[8166,8190]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[8273,8286]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[8426,8439]::decrStackSize->func_70298_a
+Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[8713,8720]::getText->func_146179_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[8870,8883]::getTileEntity->func_175625_s
+Rename method net/minecraft/item/ItemStack/setCount (I)V[9120,9128]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[9182,9206]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[9293,9306]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[9448,9461]::decrStackSize->func_70298_a
+Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[9742,9749]::getText->func_146179_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[9905,9918]::getTileEntity->func_175625_s
+Rename method net/minecraft/item/ItemStack/setCount (I)V[10158,10166]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[10221,10245]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[10336,10349]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[10493,10506]::decrStackSize->func_70298_a
+Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[10794,10801]::getText->func_146179_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[10963,10976]::getTileEntity->func_175625_s
+Rename method net/minecraft/item/ItemStack/setCount (I)V[11220,11228]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[11284,11308]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[11403,11416]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[11562,11575]::decrStackSize->func_70298_a
+Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[11870,11877]::getText->func_146179_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[12046,12059]::getTileEntity->func_175625_s
+Rename method net/minecraft/item/ItemStack/setCount (I)V[12306,12314]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[12371,12395]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[12494,12507]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[12655,12668]::decrStackSize->func_70298_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[12783,12796]::getTileEntity->func_175625_s
+Rename field net/minecraft/init/Items/PAPER[12974,12979]::PAPER->field_151121_aF
+Rename method net/minecraft/item/ItemStack/setCount (I)V[13029,13037]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[13094,13118]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[13217,13230]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[13378,13391]::decrStackSize->func_70298_a
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.tileentity.TileEntityLockableLoot
+Import: net.minecraft.tileentity.TileEntity
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.init.Items
+Import: net.minecraft.client.gui.GuiTextField
+Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundTwoHundred
+Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundTwo
+Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundTwenty
+Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundTen
+Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundOneThousand
+Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundOneHundred
+Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundOne
+Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundFiveHundred
+Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundFive
+Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundFifty
+Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
+Import: java.util.HashMap
+End  Processing: net/daysantace/elysiancurrency/procedure/ProcedureNovaterraCraft.java
+
+Start Processing: net/daysantace/elysiancurrency/procedure/ProcedureVastiCraft.java
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+New Key: class net/daysantace/elysiancurrency/ElementsElysianCurrency
+FOUND CONSTR method net/daysantace/elysiancurrency/procedure/ProcedureVastiCraft/ProcedureVastiCraft (Lnet/daysantace/elysiancurrency/ElementsElysianCurrency;)V net/daysantace/elysiancurrency/procedure/ProcedureVastiCraft
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[2515,2528]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/getStackInSlot (I)Lnet/minecraft/item/ItemStack;[2627,2641]::getStackInSlot->func_70301_a
+Rename field net/minecraft/item/ItemStack/EMPTY[2670,2675]::EMPTY->field_190927_a
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2763,2770]::getItem->func_77973_b
+Rename field net/minecraft/init/Items/PAPER[2801,2806]::PAPER->field_151121_aF
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2829,2836]::getItem->func_77973_b
+Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[3039,3046]::getText->func_146179_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[3158,3171]::getTileEntity->func_175625_s
+Rename method net/minecraft/item/ItemStack/setCount (I)V[3383,3391]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[3439,3463]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[3526,3539]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[3669,3682]::decrStackSize->func_70298_a
+Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[3921,3928]::getText->func_146179_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[4046,4059]::getTileEntity->func_175625_s
+Rename method net/minecraft/item/ItemStack/setCount (I)V[4274,4282]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[4331,4355]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[4422,4435]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[4567,4580]::decrStackSize->func_70298_a
+Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[4826,4833]::getText->func_146179_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[4957,4970]::getTileEntity->func_175625_s
+Rename method net/minecraft/item/ItemStack/setCount (I)V[5189,5197]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[5247,5271]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[5342,5355]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[5489,5502]::decrStackSize->func_70298_a
+Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[5755,5762]::getText->func_146179_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[5893,5906]::getTileEntity->func_175625_s
+Rename method net/minecraft/item/ItemStack/setCount (I)V[6127,6135]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[6186,6210]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[6285,6298]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[6434,6447]::decrStackSize->func_70298_a
+Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[6707,6714]::getText->func_146179_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[6851,6864]::getTileEntity->func_175625_s
+Rename method net/minecraft/item/ItemStack/setCount (I)V[7091,7099]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[7151,7175]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[7254,7267]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[7405,7418]::decrStackSize->func_70298_a
+Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[7685,7692]::getText->func_146179_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[7835,7848]::getTileEntity->func_175625_s
+Rename method net/minecraft/item/ItemStack/setCount (I)V[8077,8085]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[8138,8162]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[8245,8258]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[8398,8411]::decrStackSize->func_70298_a
+Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[8685,8692]::getText->func_146179_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[8842,8855]::getTileEntity->func_175625_s
+Rename method net/minecraft/item/ItemStack/setCount (I)V[9092,9100]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[9154,9178]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[9265,9278]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[9420,9433]::decrStackSize->func_70298_a
+Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[9714,9721]::getText->func_146179_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[9877,9890]::getTileEntity->func_175625_s
+Rename method net/minecraft/item/ItemStack/setCount (I)V[10130,10138]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[10193,10217]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[10308,10321]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[10465,10478]::decrStackSize->func_70298_a
+Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[10766,10773]::getText->func_146179_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[10935,10948]::getTileEntity->func_175625_s
+Rename method net/minecraft/item/ItemStack/setCount (I)V[11192,11200]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[11256,11280]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[11375,11388]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[11534,11547]::decrStackSize->func_70298_a
+Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[11842,11849]::getText->func_146179_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[12018,12031]::getTileEntity->func_175625_s
+Rename method net/minecraft/item/ItemStack/setCount (I)V[12278,12286]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[12343,12367]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[12466,12479]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[12627,12640]::decrStackSize->func_70298_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[12755,12768]::getTileEntity->func_175625_s
+Rename field net/minecraft/init/Items/PAPER[12946,12951]::PAPER->field_151121_aF
+Rename method net/minecraft/item/ItemStack/setCount (I)V[13001,13009]::setCount->func_190920_e
+Rename method net/minecraft/inventory/IInventory/setInventorySlotContents (ILnet/minecraft/item/ItemStack;)V[13066,13090]::setInventorySlotContents->func_70299_a
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[13189,13202]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/IInventory/decrStackSize (II)Lnet/minecraft/item/ItemStack;[13350,13363]::decrStackSize->func_70298_a
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.tileentity.TileEntityLockableLoot
+Import: net.minecraft.tileentity.TileEntity
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.init.Items
+Import: net.minecraft.client.gui.GuiTextField
+Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundTwoHundred
+Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundTwo
+Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundTwenty
+Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundTen
+Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundOneThousand
+Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundOneHundred
+Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundOne
+Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundFiveHundred
+Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundFive
+Import: net.daysantace.elysiancurrency.item.ItemNovaterraPoundFifty
+Import: net.daysantace.elysiancurrency.ElementsElysianCurrency
+Import: java.util.HashMap
+End  Processing: net/daysantace/elysiancurrency/procedure/ProcedureVastiCraft.java
 

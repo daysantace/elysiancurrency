@@ -1,0 +1,219 @@
+{
+  "id_map": {
+    "GUI": 1
+  },
+  "mod_elements": [
+    {
+      "name": "NovaterraPoundOne",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElysianMoney",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NovaterraPoundTwo",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NovaterraPoundFive",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NovaterraPoundTen",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NovaterraPoundTwenty",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NovaterraPoundFifty",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NovaterraPoundOneHundred",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NovaterraPoundTwoHundred",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NovaterraPoundFiveHundred",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NovaterraPoundOneThousand",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VastiBuckOne",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VastiBuckFive",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VastiBuckTen",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NovaterraCraft",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NovaterraMintGUI",
+      "type": "gui",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      }
+    },
+    {
+      "name": "NovaterraMint",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.vastibuckone.name": "Vastian Buck ($1)",
+      "itemGroup.tabelysianmoney": "Elysian Money",
+      "item.elysiancurrency.novaterrapoundfivehundred": "Novaterran Pound (£500)",
+      "item.vastibuckten.name": "Vastian Buck ($10)",
+      "item.elysiancurrency.novaterrapoundonethousand": "Novaterran Pound (£1000)",
+      "item.novaterrapoundten.name": "Novaterran Pound (£10)",
+      "item.novaterrapoundfivehundred.name": "Novaterran Pound (£500)",
+      "item.novaterrapoundonehundred.name": "Novaterran Pound (£100)",
+      "item.novaterrapoundonethousand.name": "Novaterran Pound (£1000)",
+      "item.novaterrapoundtwohundred.name": "Novaterran Pound (£200)",
+      "item.vastibuckfive.name": "Vastian Buck ($5)",
+      "item.novaterrapoundtwenty.name": "Novaterran Pound (£20)",
+      "item.elysiancurrency.novaterrapoundfifty": "Novaterran Pound (£50)",
+      "item.novaterrapoundone.name": "Novaterran Pound (£1)",
+      "item.elysiancurrency.novaterrapoundtwohundred": "Novaterran Pound (£200)",
+      "item.elysiancurrency.novaterrapoundtwo": "Novaterran Pound (£2)",
+      "tile.novaterramint.name": "Novaterra Mint",
+      "item.novaterrapoundtwo.name": "Novaterran Pound (£2)",
+      "item.elysiancurrency.novaterrapoundten": "Novaterran Pound (£10)",
+      "item.elysiancurrency.novaterrapoundfive": "Novaterran Pound (£5)",
+      "item.novaterrapoundfifty.name": "Novaterran Pound (£50)",
+      "item.novaterrapoundfive.name": "Novaterran Pound (£5)",
+      "item.elysiancurrency.novaterrapoundtwenty": "Novaterran Pound (£20)",
+      "item.elysiancurrency.novaterrapoundonehundred": "Novaterran Pound (£100)",
+      "item.elysiancurrency.novaterrapoundone": "Novaterran Pound (£1)"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "elysiancurrency",
+    "modName": "Elysian Currency",
+    "version": "1.0",
+    "description": "Mod that brings country currency over to Elysia MC",
+    "author": "daysant",
+    "websiteURL": "https://github.com/daysantace/elysiancurrency",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "credits": "Made by daysant in MCreator",
+    "modElementsPackage": "net.daysantace.elysiancurrency",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}

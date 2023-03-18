@@ -1,11 +1,11 @@
 Unsupposrted library path: C:\Users\Joshu\MCreatorWorkspaces\elysiancurrency\build\classes\java\api
 Unsupposrted library path: C:\Users\Joshu\MCreatorWorkspaces\elysiancurrency\build\resources\api
 Symbol range map extraction starting
-Processing 20 files
+Processing 26 files
 startProcessing "net/daysantace/elysiancurrency/ClientProxyElysianCurrency.java" md5: 94d45490b9e1bd0d928f9206390d2deb
 endProcessing "net/daysantace/elysiancurrency/ClientProxyElysianCurrency.java"
 
-startProcessing "net/daysantace/elysiancurrency/ElementsElysianCurrency.java" md5: e6345cc3c9f01773f18b5b1eca333fd2
+startProcessing "net/daysantace/elysiancurrency/ElementsElysianCurrency.java" md5: e2088db73417cd5732a5a360bafa1ff4
 endProcessing "net/daysantace/elysiancurrency/ElementsElysianCurrency.java"
 
 startProcessing "net/daysantace/elysiancurrency/ElysianCurrency.java" md5: da72c8369fbc285979572dbdc4e0dc7f
@@ -20,8 +20,20 @@ endProcessing "net/daysantace/elysiancurrency/IProxyElysianCurrency.java"
 startProcessing "net/daysantace/elysiancurrency/ServerProxyElysianCurrency.java" md5: 10375a0caecae30478efc7e03ff4d635
 endProcessing "net/daysantace/elysiancurrency/ServerProxyElysianCurrency.java"
 
+startProcessing "net/daysantace/elysiancurrency/block/BlockNovaterraMint.java" md5: 2ab7f73d762136faa2a967db5ab6130b
+endProcessing "net/daysantace/elysiancurrency/block/BlockNovaterraMint.java"
+
+startProcessing "net/daysantace/elysiancurrency/block/BlockVastiMint.java" md5: 51678d474a2fbb8566553c980ff7777e
+endProcessing "net/daysantace/elysiancurrency/block/BlockVastiMint.java"
+
 startProcessing "net/daysantace/elysiancurrency/creativetab/TabElysianMoney.java" md5: f7e4379d812e995a99f9cc3a843fbe86
 endProcessing "net/daysantace/elysiancurrency/creativetab/TabElysianMoney.java"
+
+startProcessing "net/daysantace/elysiancurrency/gui/GuiNovaterraMintGUI.java" md5: a9828726ac8d9df09815838aa58d3afa
+endProcessing "net/daysantace/elysiancurrency/gui/GuiNovaterraMintGUI.java"
+
+startProcessing "net/daysantace/elysiancurrency/gui/GuiVastiMintGUI.java" md5: 2758aec26137a0c989e7044671d2d78c
+endProcessing "net/daysantace/elysiancurrency/gui/GuiVastiMintGUI.java"
 
 startProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundFifty.java" md5: b4cea26f60c98a5e345520f018ed0047
 endProcessing "net/daysantace/elysiancurrency/item/ItemNovaterraPoundFifty.java"
@@ -61,4 +73,10 @@ endProcessing "net/daysantace/elysiancurrency/item/ItemVastiBuckOne.java"
 
 startProcessing "net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java" md5: 0994c57ce4753ba297c7669b91ad9436
 endProcessing "net/daysantace/elysiancurrency/item/ItemVastiBuckTen.java"
+
+startProcessing "net/daysantace/elysiancurrency/procedure/ProcedureNovaterraCraft.java" md5: 4569fba4553d8c6ce324e25b8cbcbf2b
+endProcessing "net/daysantace/elysiancurrency/procedure/ProcedureNovaterraCraft.java"
+
+startProcessing "net/daysantace/elysiancurrency/procedure/ProcedureVastiCraft.java" md5: cceca7f6c41663b2559f02d6964b3c1d
+endProcessing "net/daysantace/elysiancurrency/procedure/ProcedureVastiCraft.java"
 
