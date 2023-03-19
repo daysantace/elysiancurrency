@@ -15,5 +15,5 @@ Diamond Queen - artist for Seanánville money.<br>
 d4rkv0rtex and kartoonzz - designer for their respective country's currency.<br>
 
 ## Licence
-This work is licenced under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Licence.<br>
+This work is licenced under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Licence.<br>
 Full licence at `LICENSE.MD`.
