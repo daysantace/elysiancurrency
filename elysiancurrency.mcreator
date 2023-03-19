@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "GUI": 2
+    "GUI": 3
   },
   "mod_elements": [
     {
@@ -214,6 +214,56 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "SeananvilleCraft",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SeananvilleMintGUI",
+      "type": "gui",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 3
+      }
+    },
+    {
+      "name": "SeananvilleMint",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -227,10 +277,11 @@
       "item.elysiancurrency.novaterrapoundonethousand": "Novaterran Pound (£1000)",
       "item.novaterrapoundten.name": "Novaterran Pound (£10)",
       "item.novaterrapoundfivehundred.name": "Novaterran Pound (£500)",
-      "item.novaterrapoundonehundred.name": "Novaterran Pound (£100)",
       "item.novaterrapoundonethousand.name": "Novaterran Pound (£1000)",
+      "item.novaterrapoundonehundred.name": "Novaterran Pound (£100)",
       "item.novaterrapoundtwohundred.name": "Novaterran Pound (£200)",
       "item.vastibuckfive.name": "Vastian Buck ($5)",
+      "tile.seananvillemint.name": "Novaterra Mint",
       "item.novaterrapoundtwenty.name": "Novaterran Pound (£20)",
       "item.elysiancurrency.novaterrapoundfifty": "Novaterran Pound (£50)",
       "item.novaterrapoundone.name": "Novaterran Pound (£1)",

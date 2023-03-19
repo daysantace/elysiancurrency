@@ -10,8 +10,8 @@ If you want to contribute, simply pull the file to your local machine, and push 
 Make sure you are on the development branch - do not push to the main branch without prior consent from daysant.
 
 ## Credits and acknowledgements
-@daysantace - developer and writer of this README<br>
-Diamond Queen - artist for Seanánville money.<br>
+@daysantace - developer and writer of this README.<br>
+Diamond Queen - artist for Seanánville and Vasti currency.<br>
 d4rkv0rtex and kartoonzz - designer for their respective country's currency.<br>
 
 ## Licence

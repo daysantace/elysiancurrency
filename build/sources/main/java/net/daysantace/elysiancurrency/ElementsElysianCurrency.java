@@ -35,6 +35,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.block.Block;
 
 import net.daysantace.elysiancurrency.gui.GuiVastiMintGUI;
+import net.daysantace.elysiancurrency.gui.GuiSeananvilleMintGUI;
 import net.daysantace.elysiancurrency.gui.GuiNovaterraMintGUI;
 
 import java.util.function.Supplier;
@@ -132,6 +133,8 @@ public class ElementsElysianCurrency implements IFuelHandler, IWorldGenerator {
 				return new GuiNovaterraMintGUI.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiVastiMintGUI.GUIID)
 				return new GuiVastiMintGUI.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiSeananvilleMintGUI.GUIID)
+				return new GuiSeananvilleMintGUI.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -141,6 +144,8 @@ public class ElementsElysianCurrency implements IFuelHandler, IWorldGenerator {
 				return new GuiNovaterraMintGUI.GuiWindow(world, x, y, z, player);
 			if (id == GuiVastiMintGUI.GUIID)
 				return new GuiVastiMintGUI.GuiWindow(world, x, y, z, player);
+			if (id == GuiSeananvilleMintGUI.GUIID)
+				return new GuiSeananvilleMintGUI.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}
