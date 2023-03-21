@@ -13,13 +13,13 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
 import net.daysantace.elysiancurrency.creativetab.TabElysianMoney;
-import net.daysantace.elysiancurrency.ElementsElysianCurrency;
+import net.daysantace.elysiancurrency.ElementsElysiancurrencyMod;
 
-@ElementsElysianCurrency.ModElement.Tag
-public class ItemNovaterraPoundTwo extends ElementsElysianCurrency.ModElement {
+@ElementsElysiancurrencyMod.ModElement.Tag
+public class ItemNovaterraPoundTwo extends ElementsElysiancurrencyMod.ModElement {
 	@GameRegistry.ObjectHolder("elysiancurrency:novaterrapoundtwo")
 	public static final Item block = null;
-	public ItemNovaterraPoundTwo(ElementsElysianCurrency instance) {
+	public ItemNovaterraPoundTwo(ElementsElysiancurrencyMod instance) {
 		super(instance, 2);
 	}
 

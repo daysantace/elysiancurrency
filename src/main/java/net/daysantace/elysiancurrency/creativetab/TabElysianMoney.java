@@ -8,11 +8,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.creativetab.CreativeTabs;
 
 import net.daysantace.elysiancurrency.item.ItemNovaterraPoundOne;
-import net.daysantace.elysiancurrency.ElementsElysianCurrency;
+import net.daysantace.elysiancurrency.ElementsElysiancurrencyMod;
 
-@ElementsElysianCurrency.ModElement.Tag
-public class TabElysianMoney extends ElementsElysianCurrency.ModElement {
-	public TabElysianMoney(ElementsElysianCurrency instance) {
+@ElementsElysiancurrencyMod.ModElement.Tag
+public class TabElysianMoney extends ElementsElysiancurrencyMod.ModElement {
+	public TabElysianMoney(ElementsElysiancurrencyMod instance) {
 		super(instance, 1);
 	}
 

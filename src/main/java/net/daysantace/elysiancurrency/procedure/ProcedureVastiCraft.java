@@ -18,17 +18,22 @@ import net.daysantace.elysiancurrency.item.ItemNovaterraPoundOne;
 import net.daysantace.elysiancurrency.item.ItemNovaterraPoundFiveHundred;
 import net.daysantace.elysiancurrency.item.ItemNovaterraPoundFive;
 import net.daysantace.elysiancurrency.item.ItemNovaterraPoundFifty;
-import net.daysantace.elysiancurrency.ElementsElysianCurrency;
+import net.daysantace.elysiancurrency.ElementsElysiancurrencyMod;
 
+import java.util.Map;
 import java.util.HashMap;
 
-@ElementsElysianCurrency.ModElement.Tag
-public class ProcedureVastiCraft extends ElementsElysianCurrency.ModElement {
-	public ProcedureVastiCraft(ElementsElysianCurrency instance) {
+@ElementsElysiancurrencyMod.ModElement.Tag
+public class ProcedureVastiCraft extends ElementsElysiancurrencyMod.ModElement {
+	public ProcedureVastiCraft(ElementsElysiancurrencyMod instance) {
 		super(instance, 20);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
+		if (dependencies.get("guistate") == null) {
+			System.err.println("Failed to load dependency guistate for procedure VastiCraft!");
+			return;
+		}
 		if (dependencies.get("x") == null) {
 			System.err.println("Failed to load dependency x for procedure VastiCraft!");
 			return;
@@ -41,18 +46,14 @@ public class ProcedureVastiCraft extends ElementsElysianCurrency.ModElement {
 			System.err.println("Failed to load dependency z for procedure VastiCraft!");
 			return;
 		}
-		if (dependencies.get("guistate") == null) {
-			System.err.println("Failed to load dependency guistate for procedure VastiCraft!");
-			return;
-		}
 		if (dependencies.get("world") == null) {
 			System.err.println("Failed to load dependency world for procedure VastiCraft!");
 			return;
 		}
+		HashMap guistate = (HashMap) dependencies.get("guistate");
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
-		HashMap guistate = (HashMap) dependencies.get("guistate");
 		World world = (World) dependencies.get("world");
 		if (((new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {

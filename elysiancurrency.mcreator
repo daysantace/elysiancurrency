@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "GUI": 3
+    "GUI": 4
   },
   "mod_elements": [
     {
@@ -9,7 +9,8 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "path": "~/Novaterra/Currency"
     },
     {
       "name": "ElysianMoney",
@@ -17,7 +18,8 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "path": "~/Generic"
     },
     {
       "name": "NovaterraPoundTwo",
@@ -25,7 +27,8 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "path": "~/Novaterra/Currency"
     },
     {
       "name": "NovaterraPoundFive",
@@ -33,7 +36,8 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "path": "~/Novaterra/Currency"
     },
     {
       "name": "NovaterraPoundTen",
@@ -41,7 +45,8 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "path": "~/Novaterra/Currency"
     },
     {
       "name": "NovaterraPoundTwenty",
@@ -49,7 +54,8 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "path": "~/Novaterra/Currency"
     },
     {
       "name": "NovaterraPoundFifty",
@@ -57,7 +63,8 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "path": "~/Novaterra/Currency"
     },
     {
       "name": "NovaterraPoundOneHundred",
@@ -65,7 +72,8 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "path": "~/Novaterra/Currency"
     },
     {
       "name": "NovaterraPoundTwoHundred",
@@ -73,7 +81,8 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "path": "~/Novaterra/Currency"
     },
     {
       "name": "NovaterraPoundFiveHundred",
@@ -81,7 +90,8 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "path": "~/Novaterra/Currency"
     },
     {
       "name": "NovaterraPoundOneThousand",
@@ -89,7 +99,8 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "path": "~/Novaterra/Currency"
     },
     {
       "name": "VastiBuckOne",
@@ -97,7 +108,8 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "path": "~/Vasti/Currency"
     },
     {
       "name": "VastiBuckFive",
@@ -105,7 +117,8 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "path": "~/Vasti/Currency"
     },
     {
       "name": "VastiBuckTen",
@@ -113,7 +126,8 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "path": "~/Vasti/Currency"
     },
     {
       "name": "NovaterraCraft",
@@ -125,27 +139,28 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
-          },
-          {
-            "name": "guistate",
-            "type": "map"
+            "type": "number"
           },
           {
             "name": "world",
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Novaterra/Mint"
     },
     {
       "name": "NovaterraMintGUI",
@@ -155,7 +170,8 @@
       "locked_code": false,
       "ids": {
         "0": 1
-      }
+      },
+      "path": "~/Novaterra/Mint"
     },
     {
       "name": "NovaterraMint",
@@ -163,7 +179,8 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "path": "~/Novaterra/Mint"
     },
     {
       "name": "VastiCraft",
@@ -175,27 +192,28 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
-          },
-          {
-            "name": "guistate",
-            "type": "map"
+            "type": "number"
           },
           {
             "name": "world",
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Vasti/Mint"
     },
     {
       "name": "VastiMintGUI",
@@ -205,7 +223,8 @@
       "locked_code": false,
       "ids": {
         "0": 2
-      }
+      },
+      "path": "~/Vasti/Mint"
     },
     {
       "name": "VastiMint",
@@ -213,7 +232,8 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "path": "~/Vasti/Mint"
     },
     {
       "name": "SeananvilleCraft",
@@ -225,27 +245,28 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
-          },
-          {
-            "name": "guistate",
-            "type": "map"
+            "type": "number"
           },
           {
             "name": "world",
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Seananville/Mint"
     },
     {
       "name": "SeananvilleMintGUI",
@@ -255,7 +276,8 @@
       "locked_code": false,
       "ids": {
         "0": 3
-      }
+      },
+      "path": "~/Seananville/Mint"
     },
     {
       "name": "SeananvilleMint",
@@ -263,13 +285,107 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "path": "~/Seananville/Mint"
+    },
+    {
+      "name": "WalletGUI",
+      "type": "gui",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 4
+      },
+      "registry_name": "wallet_gui",
+      "path": "~/Generic/Wallet"
+    },
+    {
+      "name": "SeananvilleDollarOne",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seananville_dollar_one",
+      "path": "~/Seananville/Currency"
+    },
+    {
+      "name": "SeananvilleDollarTwo",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seananville_dollar_two",
+      "path": "~/Seananville/Currency"
+    },
+    {
+      "name": "SeananvilleDollarFive",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seananville_dollar_five",
+      "path": "~/Seananville/Currency"
+    },
+    {
+      "name": "SeananvilleDollarTen",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seananville_dollar_ten",
+      "path": "~/Seananville/Currency"
+    },
+    {
+      "name": "SeananvilleDollarTwenty",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seananville_dollar_twenty",
+      "path": "~/Seananville/Currency"
+    },
+    {
+      "name": "SeananvilleDollarFifty",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seananville_dollar_fifty",
+      "path": "~/Seananville/Currency"
+    },
+    {
+      "name": "Wallet",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wallet",
+      "path": "~/Generic/Wallet"
+    },
+    {
+      "name": "WalletRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wallet_recipe",
+      "path": "~/Generic/Wallet"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
+    "en_ie": {
+      "item.seananville_dollar_two.name": "Seananville Dollar Two",
       "item.vastibuckone.name": "Vastian Buck ($1)",
       "itemGroup.tabelysianmoney": "Elysian Money",
       "item.elysiancurrency.novaterrapoundfivehundred": "Novaterran Pound (£500)",
@@ -281,12 +397,16 @@
       "item.novaterrapoundonehundred.name": "Novaterran Pound (£100)",
       "item.novaterrapoundtwohundred.name": "Novaterran Pound (£200)",
       "item.vastibuckfive.name": "Vastian Buck ($5)",
-      "tile.seananvillemint.name": "Novaterra Mint",
+      "item.seananville_dollar_one.name": "Seananville Dollar One",
+      "item.seananville_dollar_fifty.name": "Seananville Dollar Fifty",
+      "tile.seananvillemint.name": "Seanánville Mint",
       "item.novaterrapoundtwenty.name": "Novaterran Pound (£20)",
       "item.elysiancurrency.novaterrapoundfifty": "Novaterran Pound (£50)",
       "item.novaterrapoundone.name": "Novaterran Pound (£1)",
+      "item.seananville_dollar_ten.name": "Seananville Dollar Ten",
       "item.elysiancurrency.novaterrapoundtwohundred": "Novaterran Pound (£200)",
       "item.elysiancurrency.novaterrapoundtwo": "Novaterran Pound (£2)",
+      "item.seananville_dollar_twenty.name": "Seananville Dollar Twenty",
       "tile.novaterramint.name": "Novaterra Mint",
       "item.novaterrapoundtwo.name": "Novaterran Pound (£2)",
       "tile.vastimint.name": "Novaterra Mint",
@@ -296,8 +416,99 @@
       "item.novaterrapoundfive.name": "Novaterran Pound (£5)",
       "item.elysiancurrency.novaterrapoundtwenty": "Novaterran Pound (£20)",
       "item.elysiancurrency.novaterrapoundonehundred": "Novaterran Pound (£100)",
-      "item.elysiancurrency.novaterrapoundone": "Novaterran Pound (£1)"
+      "item.seananville_dollar_five.name": "Seananville Dollar Five",
+      "item.elysiancurrency.novaterrapoundone": "Novaterran Pound (£1)",
+      "item.wallet.name": "Wallet"
+    },
+    "en_us": {
+      "item.seananville_dollar_two.name": "Seananvillian Dollar ($2)",
+      "item.vastibuckone.name": "Vastian Buck ($1)",
+      "itemGroup.tabelysianmoney": "Elysian Money",
+      "item.elysiancurrency.novaterrapoundfivehundred": "Novaterran Pound (£500)",
+      "item.vastibuckten.name": "Vastian Buck ($10)",
+      "item.elysiancurrency.novaterrapoundonethousand": "Novaterran Pound (£1000)",
+      "item.novaterrapoundten.name": "Novaterran Pound (£10)",
+      "item.novaterrapoundfivehundred.name": "Novaterran Pound (£500)",
+      "item.novaterrapoundonehundred.name": "Novaterran Pound (£100)",
+      "item.novaterrapoundonethousand.name": "Novaterran Pound (£1000)",
+      "item.novaterrapoundtwohundred.name": "Novaterran Pound (£200)",
+      "item.vastibuckfive.name": "Vastian Buck ($5)",
+      "item.seananville_dollar_one.name": "Seananvillian Dollar ($1)",
+      "item.seananville_dollar_fifty.name": "Seananvillian Dollar ($50)",
+      "tile.seananvillemint.name": "Seananvillian Mint",
+      "item.novaterrapoundtwenty.name": "Novaterran Pound (£20)",
+      "item.elysiancurrency.novaterrapoundfifty": "Novaterran Pound (£50)",
+      "item.novaterrapoundone.name": "Novaterran Pound (£1)",
+      "item.seananville_dollar_ten.name": "Seananvillian Dollar ($10)",
+      "item.elysiancurrency.novaterrapoundtwohundred": "Novaterran Pound (£200)",
+      "item.elysiancurrency.novaterrapoundtwo": "Novaterran Pound (£2)",
+      "item.seananville_dollar_twenty.name": "Seananvillian Dollar ($20)",
+      "tile.novaterramint.name": "Novaterran Mint",
+      "item.novaterrapoundtwo.name": "Novaterran Pound (£2)",
+      "tile.vastimint.name": "Vastian Mint",
+      "item.elysiancurrency.novaterrapoundten": "Novaterran Pound (£10)",
+      "item.elysiancurrency.novaterrapoundfive": "Novaterran Pound (£5)",
+      "item.novaterrapoundfifty.name": "Novaterran Pound (£50)",
+      "item.novaterrapoundfive.name": "Novaterran Pound (£5)",
+      "item.elysiancurrency.novaterrapoundtwenty": "Novaterran Pound (£20)",
+      "item.elysiancurrency.novaterrapoundonehundred": "Novaterran Pound (£100)",
+      "item.seananville_dollar_five.name": "Seananvillian Dollar ($5)",
+      "item.elysiancurrency.novaterrapoundone": "Novaterran Pound (£1)",
+      "item.wallet.name": "Wallet"
     }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Novaterra",
+        "children": [
+          {
+            "name": "Currency",
+            "children": []
+          },
+          {
+            "name": "Mint",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Vasti",
+        "children": [
+          {
+            "name": "Currency",
+            "children": []
+          },
+          {
+            "name": "Mint",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Seananville",
+        "children": [
+          {
+            "name": "Currency",
+            "children": []
+          },
+          {
+            "name": "Mint",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Generic",
+        "children": [
+          {
+            "name": "Wallet",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "elysiancurrency",
@@ -317,5 +528,5 @@
     "modElementsPackage": "net.daysantace.elysiancurrency",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000214217
+  "mcreatorVersion": 202100118117
 }

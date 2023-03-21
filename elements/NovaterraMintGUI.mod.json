@@ -1,11 +1,14 @@
 {
-  "_fv": 6,
+  "_fv": 18,
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 352,
-    "height": 332,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
     "renderBgLayer": true,
+    "doesPauseGame": false,
     "components": [
       {
         "type": "inputslot",
@@ -14,29 +17,33 @@
             "value": ""
           },
           "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 318,
-          "y": 168
+          "x": 159,
+          "y": 84
         }
       },
       {
         "type": "outputslot",
         "data": {
           "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #1",
-          "x": 498,
-          "y": 168
+          "x": 249,
+          "y": 84
         }
       },
       {
         "type": "textfield",
         "data": {
           "placeholder": "Denomination value",
-          "width": 240,
-          "height": 40,
+          "width": 120,
+          "height": 20,
           "name": "denomcount",
-          "x": 305,
-          "y": 114
+          "x": 153,
+          "y": 57
         }
       },
       {
@@ -46,11 +53,11 @@
           "onClick": {
             "name": "NovaterraCraft"
           },
-          "width": 80,
-          "height": 40,
+          "width": 40,
+          "height": 20,
           "name": "Mint",
-          "x": 385,
-          "y": 166
+          "x": 193,
+          "y": 83
         }
       }
     ]

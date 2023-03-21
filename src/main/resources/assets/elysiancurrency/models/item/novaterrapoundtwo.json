@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "elysiancurrency:items/two"
+    "layer0": "elysiancurrency:items/novaterratwo"
   }
 }

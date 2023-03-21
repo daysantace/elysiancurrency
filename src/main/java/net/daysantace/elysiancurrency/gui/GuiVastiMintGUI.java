@@ -25,9 +25,9 @@ import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.gui.GuiTextField;
 import net.minecraft.client.gui.GuiButton;
 
-import net.daysantace.elysiancurrency.procedure.ProcedureNovaterraCraft;
-import net.daysantace.elysiancurrency.ElysianCurrency;
-import net.daysantace.elysiancurrency.ElementsElysianCurrency;
+import net.daysantace.elysiancurrency.procedure.ProcedureVastiCraft;
+import net.daysantace.elysiancurrency.ElysiancurrencyMod;
+import net.daysantace.elysiancurrency.ElementsElysiancurrencyMod;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -35,11 +35,11 @@ import java.util.HashMap;
 
 import java.io.IOException;
 
-@ElementsElysianCurrency.ModElement.Tag
-public class GuiVastiMintGUI extends ElementsElysianCurrency.ModElement {
+@ElementsElysiancurrencyMod.ModElement.Tag
+public class GuiVastiMintGUI extends ElementsElysiancurrencyMod.ModElement {
 	public static int GUIID = 2;
 	public static HashMap guistate = new HashMap();
-	public GuiVastiMintGUI(ElementsElysianCurrency instance) {
+	public GuiVastiMintGUI(ElementsElysiancurrencyMod instance) {
 		super(instance, 21);
 	}
 
@@ -64,9 +64,9 @@ public class GuiVastiMintGUI extends ElementsElysianCurrency.ModElement {
 			TileEntity ent = world.getTileEntity(new BlockPos(x, y, z));
 			if (ent instanceof IInventory)
 				this.internal = (IInventory) ent;
-			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 35, 48) {
+			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 34, 48) {
 			}));
-			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 125, 48) {
+			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 124, 48) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -127,12 +127,7 @@ public class GuiVastiMintGUI extends ElementsElysianCurrency.ModElement {
 			return itemstack;
 		}
 
-		@Override /**
-					 * Merges provided ItemStack with the first avaliable one in the
-					 * container/player inventor between minIndex (included) and maxIndex
-					 * (excluded). Args : stack, minIndex, maxIndex, negativDirection. /!\ the
-					 * Container implementation do not check if the item is valid for the slot
-					 */
+		@Override
 		protected boolean mergeItemStack(ItemStack stack, int startIndex, int endIndex, boolean reverseDirection) {
 			boolean flag = false;
 			int i = startIndex;
@@ -220,7 +215,7 @@ public class GuiVastiMintGUI extends ElementsElysianCurrency.ModElement {
 
 		private void slotChanged(int slotid, int ctype, int meta) {
 			if (this.world != null && this.world.isRemote) {
-				ElysianCurrency.PACKET_HANDLER.sendToServer(new GUISlotChangedMessage(slotid, x, y, z, ctype, meta));
+				ElysiancurrencyMod.PACKET_HANDLER.sendToServer(new GUISlotChangedMessage(slotid, x, y, z, ctype, meta));
 				handleSlotAction(entity, slotid, ctype, meta, x, y, z);
 			}
 		}
@@ -251,11 +246,11 @@ public class GuiVastiMintGUI extends ElementsElysianCurrency.ModElement {
 
 		@Override
 		protected void drawGuiContainerBackgroundLayer(float par1, int par2, int par3) {
-			GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
+			GL11.glColor4f(1, 1, 1, 1);
 			this.mc.renderEngine.bindTexture(texture);
 			int k = (this.width - this.xSize) / 2;
 			int l = (this.height - this.ySize) / 2;
-			this.drawTexturedModalRect(k, l, 0, 0, this.xSize, this.ySize);
+			this.drawModalRectWithCustomSizedTexture(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 			zLevel = 100.0F;
 		}
 
@@ -306,7 +301,7 @@ public class GuiVastiMintGUI extends ElementsElysianCurrency.ModElement {
 
 		@Override
 		protected void actionPerformed(GuiButton button) {
-			ElysianCurrency.PACKET_HANDLER.sendToServer(new GUIButtonPressedMessage(button.id, x, y, z));
+			ElysiancurrencyMod.PACKET_HANDLER.sendToServer(new GUIButtonPressedMessage(button.id, x, y, z));
 			handleButtonAction(entity, button.id, x, y, z);
 		}
 
@@ -418,13 +413,13 @@ public class GuiVastiMintGUI extends ElementsElysianCurrency.ModElement {
 			return;
 		if (buttonID == 0) {
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("guistate", guistate);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
-				$_dependencies.put("guistate", guistate);
 				$_dependencies.put("world", world);
-				ProcedureNovaterraCraft.executeProcedure($_dependencies);
+				ProcedureVastiCraft.executeProcedure($_dependencies);
 			}
 		}
 	}

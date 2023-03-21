@@ -10,9 +10,9 @@ If you want to contribute, simply pull the file to your local machine, and push 
 Make sure you are on the development branch - do not push to the main branch without prior consent from daysant.
 
 ## Credits and acknowledgements
-@daysantace - developer and writer of this README.<br>
-Diamond Queen - artist for Seanánville and Vasti currency.<br>
-d4rkv0rtex and kartoonzz - designer for their respective country's currency.<br>
+@daysantace - developer, writer of this README, and artist for Novaterran currency.<br>
+Diamond Queen - artist for Vastian currency.<br>
+d4rkv0rtex and kartoonzz - designer and base artist for their respective country's currency.<br>
 
 ## Licence
 This work is licenced under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Licence.<br>

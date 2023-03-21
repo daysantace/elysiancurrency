@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 18,
   "_type": "block",
   "definition": {
     "texture": "mintbottom",
@@ -11,36 +11,48 @@
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
     "hasTransparency": false,
+    "connectedSides": false,
     "transparencyType": "SOLID",
-    "mx": 0.0,
-    "my": 0.0,
-    "mz": 0.0,
-    "Mx": 1.0,
-    "My": 1.0,
-    "Mz": 1.0,
-    "faceShape": "SOLID",
-    "name": "Novaterra Mint",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Vastian Mint",
     "specialInfo": [],
     "hardness": -1.0,
     "resistance": 10.0,
     "hasGravity": false,
+    "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:ElysianMoney"
     },
     "destroyTool": "Not specified",
-    "affectedBySilkTouch": true,
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
-    "isBeaconBase": false,
+    "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "BARRIER"
+      "value": "IRON"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -49,16 +61,20 @@
     "creativePickItem": {
       "value": ""
     },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
       "value": "METAL"
     },
-    "luminance": 0.0,
+    "luminance": 0,
     "unbreakable": true,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
@@ -68,7 +84,6 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "particleSpawningCondition": "ALWAYS",
     "hasInventory": true,
     "guiBoundTo": "VastiMintGUI",
     "openGUIOnRightClick": true,
@@ -77,6 +92,15 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

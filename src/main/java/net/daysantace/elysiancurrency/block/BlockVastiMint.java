@@ -36,14 +36,14 @@ import net.minecraft.block.Block;
 
 import net.daysantace.elysiancurrency.gui.GuiVastiMintGUI;
 import net.daysantace.elysiancurrency.creativetab.TabElysianMoney;
-import net.daysantace.elysiancurrency.ElysianCurrency;
-import net.daysantace.elysiancurrency.ElementsElysianCurrency;
+import net.daysantace.elysiancurrency.ElysiancurrencyMod;
+import net.daysantace.elysiancurrency.ElementsElysiancurrencyMod;
 
-@ElementsElysianCurrency.ModElement.Tag
-public class BlockVastiMint extends ElementsElysianCurrency.ModElement {
+@ElementsElysiancurrencyMod.ModElement.Tag
+public class BlockVastiMint extends ElementsElysiancurrencyMod.ModElement {
 	@GameRegistry.ObjectHolder("elysiancurrency:vastimint")
 	public static final Block block = null;
-	public BlockVastiMint(ElementsElysianCurrency instance) {
+	public BlockVastiMint(ElementsElysiancurrencyMod instance) {
 		super(instance, 22);
 	}
 
@@ -66,7 +66,7 @@ public class BlockVastiMint extends ElementsElysianCurrency.ModElement {
 	}
 	public static class BlockCustom extends Block implements ITileEntityProvider {
 		public BlockCustom() {
-			super(Material.GROUND);
+			super(Material.IRON);
 			setUnlocalizedName("vastimint");
 			setSoundType(SoundType.METAL);
 			setHardness(-1F);
@@ -125,7 +125,7 @@ public class BlockVastiMint extends ElementsElysianCurrency.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			if (entity instanceof EntityPlayer) {
-				((EntityPlayer) entity).openGui(ElysianCurrency.instance, GuiVastiMintGUI.GUIID, world, x, y, z);
+				((EntityPlayer) entity).openGui(ElysiancurrencyMod.instance, GuiVastiMintGUI.GUIID, world, x, y, z);
 			}
 			return true;
 		}
